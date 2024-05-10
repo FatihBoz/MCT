@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3172,10 +3172,9 @@ TextureImporter:
       Mage-Sheet_54: -116928670
       Mage-Sheet_5: 2134986663
       Mage-Sheet_52: -99566716
-      Mage-Sheet_125: 1457060141
+      Mage-Sheet_133: 1476035536
       Mage-Sheet_141: -87585188
       Mage-Sheet_120: -414749243
-      Mage-Sheet_133: 1476035536
       Mage-Sheet_86: 1409478184
       Mage-Sheet_79: -2116620042
       Mage-Sheet_107: 192301785
@@ -3289,6 +3288,7 @@ TextureImporter:
       Mage-Sheet_60: 1427559795
       Mage-Sheet_45: 1451393944
       Mage-Sheet_138: -340615685
+      Mage-Sheet_143: -23852479
       Mage-Sheet_27: -29059908
       Mage-Sheet_75: 1069505665
       Mage-Sheet_137: 577226417
@@ -3299,14 +3299,14 @@ TextureImporter:
       Mage-Sheet_74: -814585010
       Mage-Sheet_58: 996858036
       Mage-Sheet_93: -424513819
+      Mage-Sheet_125: 1457060141
       Mage-Sheet_50: 1263175267
       Mage-Sheet_20: -1557898332
-      Mage-Sheet_57: 582435798
       Mage-Sheet_101: -2098676190
-      Mage-Sheet_99: 198592414
+      Mage-Sheet_57: 582435798
       Mage-Sheet_80: -994068203
       Mage-Sheet_118: 1195925842
-      Mage-Sheet_143: -23852479
+      Mage-Sheet_99: 198592414
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

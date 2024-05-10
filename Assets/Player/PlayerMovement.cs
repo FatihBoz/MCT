@@ -7,11 +7,12 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed=5f;
     private Rigidbody2D rb;
     private Animator anim;
-    Vector2 movement;
+    private Vector2 movement;
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         anim=GetComponent<Animator>();
+        
     }
 
     void Update()
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         AnimationsSet();
     }
     private void FixedUpdate() {
-           rb.MovePosition(rb.position+movement*moveSpeed*Time.fixedDeltaTime);
+           rb.MovePosition(rb.position+moveSpeed * Time.fixedDeltaTime * movement);
     }
     private void AnimationsSet(){
         anim.SetFloat("velocity_x",movement.x);
