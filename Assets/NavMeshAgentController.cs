@@ -11,14 +11,12 @@ public class NavMeshAgentController : MonoBehaviour
     private NavMeshAgent agent;
 
 
-    private void Start()
+    private void Awake()
     {
-
         agent = GetComponent<NavMeshAgent>();
 
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-
     }
 
     private void Update()
