@@ -144,8 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  text: {fileID: 0}
-  stealable: 0
+  text: {fileID: 3798883239220578350, guid: 89916fc51989bf44eb5d6c505721e48f, type: 3}
 --- !u!58 &1788411171
 CircleCollider2D:
   m_ObjectHideFlags: 0

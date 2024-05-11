@@ -11,7 +11,7 @@ public class StealableObject : MonoBehaviour
 
     public string objectClass;
 
-    public string maxCount;
+    public int maxCount;
 
 
 
