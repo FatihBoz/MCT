@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8971615357435384290
+--- !u!1001 &3917213178267762826
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,28 +8,52 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32106972
+      objectReference: {fileID: 0}
+    - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3243532
+      objectReference: {fileID: 0}
+    - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.032982707
+      objectReference: {fileID: 0}
+    - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0080433935
+      objectReference: {fileID: 0}
+    - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.13
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.12
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Name
-      value: Phone Variant
+      value: Gold Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: name
-      value: phone
+      value: gold
+      objectReference: {fileID: 0}
+    - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: maxCount
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: scorePoint
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: objectClass
-      value: electronic
+      value: valuable
       objectReference: {fileID: 0}
     - target: {fileID: 3878381667157258010, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_RootOrder
@@ -78,6 +102,6 @@ PrefabInstance:
     - target: {fileID: 5845422117555498418, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -341570551, guid: 3441113fffcb3cf449a3cdc7171348d4, type: 3}
+      objectReference: {fileID: -667516125, guid: 3441113fffcb3cf449a3cdc7171348d4, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}

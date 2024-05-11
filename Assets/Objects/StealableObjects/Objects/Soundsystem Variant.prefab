@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8971615357435384290
+--- !u!1001 &4082292735953979779
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,23 +9,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.13
+      value: 1.875
       objectReference: {fileID: 0}
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.12
+      value: 1.5625
       objectReference: {fileID: 0}
     - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Name
-      value: Phone Variant
+      value: Soundsystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: name
-      value: phone
+      value: soundsystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: maxCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: scorePoint
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: objectClass
@@ -78,6 +86,6 @@ PrefabInstance:
     - target: {fileID: 5845422117555498418, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -341570551, guid: 3441113fffcb3cf449a3cdc7171348d4, type: 3}
+      objectReference: {fileID: 738026329, guid: 7c80a10963c59d24896bb4be3c806907, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}

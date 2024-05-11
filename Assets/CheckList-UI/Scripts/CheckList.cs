@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
 
 public class CheckList : MonoBehaviour
 {
     public int minLine;
     public int maxLine;
+
+    public float fadeDuration;
 
     [SerializeField] private List<TextMeshProUGUI> lines;
 
@@ -27,7 +30,7 @@ public class CheckList : MonoBehaviour
     {
         for(int i = 0; i < lineCount; i++)
         {
-            lines[i].gameObject.SetActive(true);
+            lines[i].DOFade(1, fadeDuration);
         }
     }
 

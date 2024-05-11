@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d642bc503eafa8641a506936ef3933f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillRadius: 15
+  skillRadius: 5
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
