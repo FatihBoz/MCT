@@ -7,13 +7,14 @@ public class NavMeshAgentController : MonoBehaviour
 {
     [SerializeField] Transform target;
 
-
+    private Animator animator;
     private NavMeshAgent agent;
 
 
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
 
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -22,5 +23,13 @@ public class NavMeshAgentController : MonoBehaviour
     private void Update()
     {
         agent.SetDestination(target.position);
+
+        SetAnimations();
+    }
+
+    void SetAnimations()
+    {
+        animator.SetFloat("velocity_x", agent.velocity.x);
+        animator.SetFloat("velocity_y", agent.velocity.y);
     }
 }
