@@ -38,6 +38,7 @@ public class CheckList : MonoBehaviour
     {
         SetOffSet();
         checkListObjects = new CheckListObject[objects.Count];
+
     }
 
     private void Start()
@@ -81,7 +82,7 @@ public class CheckList : MonoBehaviour
     }
 
 
-    private void CheckList_OnObjectStolen(StealableObject obj)
+    private void CheckList_OnObjectStolen(StealableObject obj) 
     {
         for(int i = 0;i < lineCount;i++)
         {
@@ -96,28 +97,32 @@ public class CheckList : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
+
             if(isOpen)
             {
-                rectTransform.DOLocalMove(privatePos, 0.75f);
+                rectTransform.DOMove(privatePos, 0.75f);
                 isOpen = false;
             }
             else
             {
-                rectTransform.DOLocalMove(publicPos, 0.75f);
-
-                isOpen= true;
+                rectTransform.DOMove(publicPos, 0.75f);
+                isOpen = true;
             }
         }
     }
 
     void SetOffSet()
     {
+        float ratiox = (float)Screen.height / 1920f;
+        float ratioy = (float)Screen.width / 1080f;
+
         rectTransform = GetComponent<RectTransform>();
 
-        privatePos = rectTransform.localPosition + privateOffSet;
-        publicPos = rectTransform.localPosition + publicOffSet;
 
-        rectTransform.localPosition = privatePos;
+        privatePos = rectTransform.position + new Vector3(privateOffSet.x*ratiox,privateOffSet.y*ratioy,privateOffSet.z);
+        publicPos = rectTransform.position + new Vector3(publicOffSet.x * ratiox, publicOffSet.y * ratioy, publicOffSet.z);
+
+        rectTransform.position = privatePos;
     }
 
 

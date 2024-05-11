@@ -31,5 +31,6 @@ public class NavMeshAgentController : MonoBehaviour
     {
         animator.SetFloat("velocity_x", agent.velocity.x);
         animator.SetFloat("velocity_y", agent.velocity.y);
+        animator.SetBool("isMoving",agent.velocity != Vector3.zero);
     }
 }
