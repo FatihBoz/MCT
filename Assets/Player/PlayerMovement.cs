@@ -56,10 +56,20 @@ public class PlayerMovement : MonoBehaviour
                 {
                     Destroy(collision.gameObject);
                     text.gameObject.SetActive(false);
+                    stealable = false;
 
                 }
 
             }
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Stealable"))
+        {
+            text.gameObject.SetActive(false);
+
         }
 
     }
