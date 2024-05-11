@@ -9,11 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.13
+      value: 0.8125
       objectReference: {fileID: 0}
     - target: {fileID: -4439090325419684672, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.12
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Name
@@ -22,6 +22,10 @@ PrefabInstance:
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: name
       value: phone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
+      propertyPath: maxCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: scorePoint
