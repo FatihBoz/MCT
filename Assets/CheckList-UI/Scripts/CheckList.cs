@@ -12,6 +12,7 @@ public class CheckList : MonoBehaviour
     public float fadeDuration;
 
     [SerializeField] private List<TextMeshProUGUI> lines;
+    [SerializeField] private List<StealableObject> objects;
 
     private void Start()
     {
@@ -31,6 +32,19 @@ public class CheckList : MonoBehaviour
         for(int i = 0; i < lineCount; i++)
         {
             lines[i].DOFade(1, fadeDuration);
+            
+        }
+    }
+
+    void SelectObjectToSteal()
+    {
+        int c = 0;
+        while (c < lines.Count)
+        {
+
+            int sel = Random.Range(0,objects.Count);
+
+            
         }
     }
 
