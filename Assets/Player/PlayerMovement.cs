@@ -12,7 +12,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
 
     public TextMeshProUGUI text;
-    public bool stealable;
+    private bool stealable;
+
+    public delegate void ObjectStealingHandler(StealableObject obj);
+    public static event ObjectStealingHandler OnObjectStolen;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -47,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
             text.gameObject.SetActive(true);
             if (Input.GetKey(KeyCode.F))
             {
+                OnObjectStolen?.Invoke(collision.gameObject.GetComponent<StealableObject>());
                 Destroy(collision.gameObject);
                 text.gameObject.SetActive(false);
 
