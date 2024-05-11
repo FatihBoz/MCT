@@ -14,6 +14,8 @@ public class OldmanState : State
          if (oldmanNpc.PlayerSeen)
         {
             sc.ChangeState(oldmanNpc.OldmanGoPlayerState);
+        }else if(!isExitingState && oldmanNpc.Stolen){
+            sc.ChangeState(oldmanNpc.OldmanObjectStolenState);
         }
     }
 }

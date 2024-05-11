@@ -9,6 +9,7 @@ public class OldmanNPC : NPC
     public OldmanIdleState OldmanIdleState{get;private set;}
     public OldmanGoPlayerState OldmanGoPlayerState{get;private set;}
     public OldmanPatrolState OldmanPatrolState{get;private set;}
+    public OldmanObjectStolenState OldmanObjectStolenState{get;private set;}
     
     public float idleCheckDistance;
     
@@ -17,6 +18,9 @@ public class OldmanNPC : NPC
     
     private Vector3 defaultLook;
      private Vector3 look;
+
+     public bool Stolen{get;private set;}
+     public Vector3 StolenPosition{get;private set;}
     
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
@@ -32,6 +36,7 @@ public class OldmanNPC : NPC
         OldmanIdleState=new OldmanIdleState(sc,agent,this);
         OldmanPatrolState=new OldmanPatrolState(sc,agent,this);
         OldmanGoPlayerState=new OldmanGoPlayerState(sc,agent,this);
+        OldmanObjectStolenState=new OldmanObjectStolenState(sc,agent,this);
 
         sc.InitalizeStateController(OldmanIdleState);
 
@@ -83,5 +88,16 @@ public class OldmanNPC : NPC
     }
     public void Oldman_ObjectStolen(StealableObject stealableObject){
         
+       StolenPosition=stealableObject.gameObject.transform.position;
+        if (Vector3.Distance(StolenPosition,transform.position)<=1000)
+        {
+            Stolen=true;
+        }else
+        {
+            Stolen=false;
+        }
+    }
+    public void SetFalseStolen(){
+        Stolen=false;
     }
 }
