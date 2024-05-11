@@ -17,11 +17,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_Name
-      value: Soundsystem
+      value: Soundsystem Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1640476768887648706, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Stealable
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: name
