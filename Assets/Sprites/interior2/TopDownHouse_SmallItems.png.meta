@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,10 +132,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 120
+        x: 4
+        y: 113
         width: 8
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 120
-        width: 8
-        height: 8
+        x: 17
+        y: 114
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 120
-        width: 8
-        height: 8
+        x: 33
+        y: 114
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 120
-        width: 8
-        height: 8
+        x: 53
+        y: 113
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 120
-        width: 8
-        height: 8
+        x: 66
+        y: 113
+        width: 11
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 120
+        x: 84
+        y: 113
         width: 8
-        height: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 120
-        width: 8
-        height: 8
+        x: 101
+        y: 113
+        width: 6
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_7
       rect:
         serializedVersion: 2
-        x: 56
-        y: 120
-        width: 8
-        height: 8
+        x: 116
+        y: 113
+        width: 9
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 120
-        width: 8
-        height: 8
+        x: 2
+        y: 97
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_9
       rect:
         serializedVersion: 2
-        x: 72
-        y: 120
-        width: 8
-        height: 8
+        x: 16
+        y: 98
+        width: 16
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 120
-        width: 8
-        height: 8
+        x: 36
+        y: 97
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,8 +363,8 @@ TextureImporter:
       name: TopDownHouse_SmallItems_11
       rect:
         serializedVersion: 2
-        x: 104
-        y: 120
+        x: 53
+        y: 97
         width: 8
         height: 8
       alignment: 0
@@ -384,10 +384,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_12
       rect:
         serializedVersion: 2
-        x: 112
-        y: 120
-        width: 8
-        height: 8
+        x: 66
+        y: 97
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_13
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 8
-        height: 8
+        x: 80
+        y: 97
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
+        x: 99
+        y: 97
         width: 8
-        height: 8
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +447,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_15
       rect:
         serializedVersion: 2
-        x: 8
-        y: 112
-        width: 8
-        height: 8
+        x: 113
+        y: 97
+        width: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 8
-        height: 8
+        x: 3
+        y: 81
+        width: 11
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,8 +489,8 @@ TextureImporter:
       name: TopDownHouse_SmallItems_17
       rect:
         serializedVersion: 2
-        x: 24
-        y: 112
+        x: 20
+        y: 81
         width: 8
         height: 8
       alignment: 0
@@ -510,10 +510,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 8
-        height: 8
+        x: 38
+        y: 81
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +531,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_19
       rect:
         serializedVersion: 2
-        x: 40
-        y: 112
-        width: 8
-        height: 8
+        x: 51
+        y: 81
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +552,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_20
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 8
-        height: 8
+        x: 67
+        y: 81
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_21
       rect:
         serializedVersion: 2
-        x: 56
-        y: 112
-        width: 8
-        height: 8
+        x: 83
+        y: 81
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +594,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
-        width: 8
-        height: 8
+        x: 98
+        y: 81
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_23
       rect:
         serializedVersion: 2
-        x: 72
-        y: 112
-        width: 8
-        height: 8
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,9 +636,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_24
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 8
+        x: 3
+        y: 65
+        width: 11
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -657,9 +657,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_25
       rect:
         serializedVersion: 2
-        x: 88
-        y: 112
-        width: 8
+        x: 20
+        y: 65
+        width: 7
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_26
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
-        width: 8
-        height: 8
+        x: 38
+        y: 65
+        width: 7
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,10 +699,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_27
       rect:
         serializedVersion: 2
-        x: 104
-        y: 112
-        width: 8
-        height: 8
+        x: 50
+        y: 65
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +720,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_28
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
-        width: 8
-        height: 8
+        x: 68
+        y: 65
+        width: 10
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,10 +741,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_29
       rect:
         serializedVersion: 2
-        x: 120
-        y: 112
-        width: 8
-        height: 8
+        x: 84
+        y: 65
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,10 +762,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 104
-        width: 8
-        height: 8
+        x: 98
+        y: 65
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,10 +783,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_31
       rect:
         serializedVersion: 2
-        x: 8
-        y: 104
-        width: 8
-        height: 8
+        x: 115
+        y: 68
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,9 +804,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_32
       rect:
         serializedVersion: 2
-        x: 16
-        y: 104
-        width: 8
+        x: 1
+        y: 49
+        width: 14
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -825,9 +825,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_33
       rect:
         serializedVersion: 2
-        x: 24
-        y: 104
-        width: 8
+        x: 17
+        y: 49
+        width: 14
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -846,9 +846,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 104
-        width: 8
+        x: 34
+        y: 49
+        width: 14
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -867,9 +867,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_35
       rect:
         serializedVersion: 2
-        x: 40
-        y: 104
-        width: 8
+        x: 49
+        y: 49
+        width: 14
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -888,10 +888,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_36
       rect:
         serializedVersion: 2
-        x: 48
-        y: 104
-        width: 8
-        height: 8
+        x: 65
+        y: 49
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,10 +909,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_37
       rect:
         serializedVersion: 2
-        x: 56
-        y: 104
-        width: 8
-        height: 8
+        x: 81
+        y: 49
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,10 +930,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 104
-        width: 8
-        height: 8
+        x: 97
+        y: 49
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +951,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_39
       rect:
         serializedVersion: 2
-        x: 72
-        y: 104
-        width: 8
-        height: 8
+        x: 113
+        y: 49
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +972,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_40
       rect:
         serializedVersion: 2
-        x: 80
-        y: 104
-        width: 8
-        height: 8
+        x: 5
+        y: 33
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -993,10 +993,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_41
       rect:
         serializedVersion: 2
-        x: 88
-        y: 104
-        width: 8
-        height: 8
+        x: 21
+        y: 33
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1014,10 +1014,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_42
       rect:
         serializedVersion: 2
-        x: 96
-        y: 104
-        width: 8
-        height: 8
+        x: 37
+        y: 33
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_43
       rect:
         serializedVersion: 2
-        x: 104
-        y: 104
-        width: 8
-        height: 8
+        x: 53
+        y: 33
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1056,9 +1056,9 @@ TextureImporter:
       name: TopDownHouse_SmallItems_44
       rect:
         serializedVersion: 2
-        x: 112
-        y: 104
-        width: 8
+        x: 64
+        y: 33
+        width: 64
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1077,10 +1077,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_45
       rect:
         serializedVersion: 2
-        x: 120
-        y: 104
-        width: 8
-        height: 8
+        x: 5
+        y: 17
+        width: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1098,10 +1098,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 8
-        height: 8
+        x: 21
+        y: 17
+        width: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_47
       rect:
         serializedVersion: 2
-        x: 8
-        y: 96
-        width: 8
-        height: 8
+        x: 37
+        y: 17
+        width: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_48
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 8
-        height: 8
+        x: 53
+        y: 17
+        width: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1161,10 +1161,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_49
       rect:
         serializedVersion: 2
-        x: 24
-        y: 96
-        width: 8
-        height: 8
+        x: 68
+        y: 17
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1182,10 +1182,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_50
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 8
-        height: 8
+        x: 84
+        y: 17
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1203,10 +1203,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_51
       rect:
         serializedVersion: 2
-        x: 40
-        y: 96
-        width: 8
-        height: 8
+        x: 100
+        y: 17
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,10 +1224,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_52
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
-        width: 8
-        height: 8
+        x: 116
+        y: 17
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_53
       rect:
         serializedVersion: 2
-        x: 56
-        y: 96
-        width: 8
-        height: 8
+        x: 5
+        y: 1
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1266,10 +1266,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_54
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 8
-        height: 8
+        x: 21
+        y: 1
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1287,10 +1287,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_55
       rect:
         serializedVersion: 2
-        x: 72
-        y: 96
-        width: 8
-        height: 8
+        x: 37
+        y: 1
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1308,10 +1308,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_56
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
-        width: 8
-        height: 8
+        x: 53
+        y: 1
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,10 +1329,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_57
       rect:
         serializedVersion: 2
-        x: 88
-        y: 96
+        x: 68
+        y: 1
         width: 8
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,10 +1350,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_58
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 8
-        height: 8
+        x: 81
+        y: 1
+        width: 14
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1371,10 +1371,10 @@ TextureImporter:
       name: TopDownHouse_SmallItems_59
       rect:
         serializedVersion: 2
-        x: 104
-        y: 96
-        width: 8
-        height: 8
+        x: 97
+        y: 1
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1393,9 +1393,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 96
-        width: 8
-        height: 8
+        y: 1
+        width: 16
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,3849 +1405,6 @@ TextureImporter:
       bones: []
       spriteID: d3427bbac5761e443819a9b18cfb59a2
       internalID: 621888978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_61
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 96
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b1dc45fa309ecd4990c1dbc641d6db8
-      internalID: 1197574159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_62
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4954196f3c0d9b4895cf1241eb7aac9
-      internalID: 1458776549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_63
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ea0072953e84ed4aa721ace57496a10
-      internalID: 822790327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_64
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247eb756794a5ed478c356a21d544daa
-      internalID: 983744839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_65
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f683d478b42cf1438c3280fee690061
-      internalID: -1036032932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_66
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25c615102e189d74f805aaf8ea351c6f
-      internalID: -1341028011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_67
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 88
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0031d410c70cb82499a82739a20b6f27
-      internalID: -1212455045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_68
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c76b6127917db446925bf7c9142ec1e
-      internalID: -1765235727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_69
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38ef06cf153dfd1449ca76ecec0660a6
-      internalID: 2005168300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_70
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 146a2575477aab14dbc1811752afcb3a
-      internalID: 30377309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_71
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02092403de00fc74ca2eda48adb76931
-      internalID: 1016603739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_72
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e44a2cdbfedc9494bbfec742ce36a905
-      internalID: -2041377654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_73
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 993408261aa021a41bcca110aab7e3c1
-      internalID: -180530229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_74
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d0d1f4e4a525b4891982fddc3baf11
-      internalID: 905782393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_75
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4a9c91b28677f14896e41a6c16b396b
-      internalID: 1321076621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_76
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b26a5beff188dcc4b89e358f6037d3f7
-      internalID: 100284601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_77
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3d78fcab8c63b246b2c7b010a74ba94
-      internalID: 915141130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_78
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a90dfe1a18b72dc408576a0488fea77e
-      internalID: -861399357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_79
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b6bc399b530d7c4b9cf60d38ad73591
-      internalID: 87941681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_80
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a209419cc529fc446bc57ccf2765b560
-      internalID: 511203042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_81
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe36d6bff9eb77645a4863732878f12b
-      internalID: -1113303657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_82
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f460180b3128d8340b491ab232eb3289
-      internalID: 2122920515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_83
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 80
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6586e07cd3ad1b14b84aede6646ee5fd
-      internalID: 447321306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_84
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c7a310c40f680248ac9488478d32458
-      internalID: -973553416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_85
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb73f1c6051a0bb4a9c4eb5091f94361
-      internalID: 1002811789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_86
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb191353b4a1f6b4482203c8c322916c
-      internalID: -483192811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_87
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 512ddcfadd14c0a4ebbd41644778e33b
-      internalID: 1662446990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_88
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bfa1dc90e705e04a8c1a48032ab1788
-      internalID: 1830851436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_89
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c36fd46bc354d8e40b5d685c89b1af84
-      internalID: -1624018600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_90
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3096c64e9dcc9e4e82cbbb59c6d45fa
-      internalID: 1368471831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_91
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5479a5f81360ee843add77205207d0bd
-      internalID: 932712978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_92
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb2420e4bde92854ea3810256fcc430b
-      internalID: 1649905860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_93
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0353f3e4098475a448064d7bcc7ca3a2
-      internalID: 2043251800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_94
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58c774fa97725234284eacaae7d94cf2
-      internalID: -796784660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_95
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5930d24feebea90488d3bdd1fff799d0
-      internalID: -1759928896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_96
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 157f7bd42fdb3684eb5b24afb3295114
-      internalID: -1030313662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_97
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2035f63b3dd5f6c42bd9fe610f8c8662
-      internalID: -976853717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_98
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e2aa81bc3e1ecd4283138bac1f35bcd
-      internalID: -1788765228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_99
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 72
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4ddfc16139c3ef458ffd2121b32c6d2
-      internalID: 217212471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_100
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80698d66485dfc64e85d796475179f3d
-      internalID: 1153831069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_101
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c411b92cdf15ee48920c23cc239ac3d
-      internalID: -570887017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_102
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6592c762777b0be438d527b73fb7d888
-      internalID: -1373566739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_103
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67c06d243bd524148b65c5fcd0d20944
-      internalID: -500601584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_104
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d636187bccf8a0428217dcdba7c0010
-      internalID: -1656418842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_105
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4aca4eead6153e84281ea05117980b8c
-      internalID: -520692406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_106
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 073347deee201894fa31474eb89c14ea
-      internalID: -984647842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_107
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12e22b04e601e6e4aaaf4ab7bfa17bf3
-      internalID: 906940306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_108
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bc87a72374b2144ab0bfc65e88bc05f
-      internalID: 1595426066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_109
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02a34a20e7ed64a459e5464c0645b187
-      internalID: 1186971223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_110
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 445c7d8b9380eba40b0e31ed6e1d94eb
-      internalID: -1285325725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_111
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d9aee806a6f1934a8d832dd4903e724
-      internalID: -1500710529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_112
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bce30101040037e478693e8af611f109
-      internalID: 1472203035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_113
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8dc8325a63ff114cab392fdb4c76260
-      internalID: 249664479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_114
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4a16c70f2f28d947b6da3de041b7bd1
-      internalID: 1509226954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_115
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 64
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48a2cb49a76d05049ade2a9afc311d60
-      internalID: 135075868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_116
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 026f353130a5ad942933e3165a0df48a
-      internalID: 458955124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_117
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 000d8abcc5735a448b151f37ff8e4243
-      internalID: -1331757061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_118
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 237c747289816ff48b2a417f33a6bc63
-      internalID: -1072054759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_119
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff5f4f34af84a748b726eb567108877
-      internalID: 1393819672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_120
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7111e8b5c154f24a8d1352c38444136
-      internalID: -620669989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_121
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29da44a0fd8f48a42933400bf3df33cb
-      internalID: 333086584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_122
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2579385ea11f89e43b8fca8785cb0bdf
-      internalID: 1594406719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_123
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a98470b587b42d2479e073fbccc40045
-      internalID: 728663293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_124
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa3271d032395d04d9c9c129aa7b75be
-      internalID: -310087686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_125
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a25620881cf0c84f848b0f6d161a648
-      internalID: 480941262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_126
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c922ad62c516dc44a9dc11b91d9d0a66
-      internalID: -262082893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_127
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea608280ea8938743b38077b25b7e632
-      internalID: -98158467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_128
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c506f529d56628489c34276ab73ffcd
-      internalID: -582717738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_129
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad1df8f6241869948b8ad41614c8c8dc
-      internalID: -473924919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_130
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 093cc68ad23cd66458feaecf7b88dd08
-      internalID: -1083793637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_131
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 56
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcfbcedd161681c4288b00deffcdf5fc
-      internalID: 2064504551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_132
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c111cdef4277d30428d551d5740d37eb
-      internalID: -267869083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_133
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33a96e3d63dc4cf4e982d49e38656360
-      internalID: 151496212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_134
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22b56f018103cfb4cbf5cc55058f53c5
-      internalID: 1763274910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_135
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ec43d182b15b10488447dfbee23378d
-      internalID: -1052124480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_136
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88c58c8dbdf4d3b4ab904ab80c851be7
-      internalID: 1241470345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_137
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26117fa66b034ca448056d89b5442e4a
-      internalID: 1757784355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_138
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 364969d17bc7a10408482b45b780cde9
-      internalID: -1736801461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_139
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d98105295df8a346940cd6fbe77e0b4
-      internalID: -377544469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_140
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5df7553d7750abc4e95da10b9c62b962
-      internalID: 1857842809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_141
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ce075b1fe8107347af5cbaf0a3b6a53
-      internalID: 1137593260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_142
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17b07dbc7b6deaa4ea53e7e4fa644de6
-      internalID: 1092222739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_143
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8850ae7b4898614eac2a3ed4d78b605
-      internalID: 1342967898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_144
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 274f414579af31d42990f15eab75e6b9
-      internalID: -348898411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_145
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0345729abb109354cbc54cf66e1d4f44
-      internalID: 116166321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_146
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1ea12af56f340f4eaa1bf1a098aa8d2
-      internalID: 1706958538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_147
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 48
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f01eda8218d1bd4498f3ed943cfa39c5
-      internalID: 722884980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_148
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fda425b037db6e4a8fa7c073bdbc616
-      internalID: 1783498219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_149
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c33d3646b3a83c04fb813ad9876c86ba
-      internalID: -302307556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_150
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 272371dd10ae9a2429f274524919c25c
-      internalID: 1263214765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_151
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a63ec1b426de33a4bafb4fc4c7d996bd
-      internalID: -308962477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_152
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcb2cadb5c371ca4ab50b6d30302b86c
-      internalID: -1823323628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_153
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89d992d4d2c3d4043a08af74521544ef
-      internalID: 1391572527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_154
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a32ece019b1fd4a4996bc5021d4f1484
-      internalID: 3733263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_155
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3987206a3fe09d74292856288ae9be87
-      internalID: -1310135098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_156
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5bd48a1e7863884fb764da6a944f0ae
-      internalID: 1568410160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_157
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0827689db678a554484e3ce5c80d7217
-      internalID: 643601379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_158
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7aae8321c1cb7404c995fbb9ca2e1579
-      internalID: -1782726825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_159
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 193ad631f70388942b161a70b7c26d70
-      internalID: -2026323565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_160
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6879aa4298da7a045bbef4bcf21df24a
-      internalID: -191510791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_161
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c193cf754107d746860ea834ceccbf3
-      internalID: -909999406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_162
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf7ea9d7aedd0ab4cb1ff63eddf3bce4
-      internalID: 173102583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_163
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 40
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bae3939a64e5c3b4cb19900b7f49e6f0
-      internalID: 1957628962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_164
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4e475d95ea072d4eb2787f22a8663aa
-      internalID: -1776389646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_165
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7467cd0e2dcee3a469f3f24d8829cf47
-      internalID: -490042161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_166
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1538c590fc9c1f04d9969bb5507f44fe
-      internalID: 1016135630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_167
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70e04b55541806241ae20881e2d879b7
-      internalID: 1808233429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_168
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf13dbbdbada31741906f35af653bc69
-      internalID: -511088819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_169
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0fb8cb5e8dc8d54bb678c952c1c9f1f
-      internalID: 2111816377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_170
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7ddbfd07c818d040b2919c30b87f96d
-      internalID: 1929561929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_171
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b83ea078ee7306342b251ebe19d4c9e7
-      internalID: 1225159490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_172
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac9c56a1ee11f8045b092bc375456482
-      internalID: -224279902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_173
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17bf40fac8928744cab92451a529cd82
-      internalID: 2110361671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_174
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c85420bdb4065441ad52eba3f648db7
-      internalID: -1619849798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_175
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77da8440e55db2a4c8d25b19cdb2a59f
-      internalID: 620934757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_176
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39aed4ec3544e5c4ba3b5298713c5bf6
-      internalID: -662626204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_177
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bef8f99906187e44e8c03012bb6efbfd
-      internalID: -2065118126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_178
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb1bb6db604ff3a4fb271c1b50572156
-      internalID: 2035218903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_179
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 32
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785b6dce36ece7f41817e2ed1cb26f12
-      internalID: 1327454916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_180
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ffb82842f4464c4b98eae11eba35b01
-      internalID: 1058486643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_181
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f015dc63b6af6fa44a9f30c21bfefc2a
-      internalID: -1789977587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_182
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d04c2bd380663744b4fc1162348fa2f
-      internalID: -1688541056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_183
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fa99fdf6bc8a33459a8ad69dc95b117
-      internalID: -195589676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_184
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8956605f3af49ff42869388d56c09059
-      internalID: -1688087972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_185
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f738b3b516b5ca644bceb2bd6f0ada65
-      internalID: 273211056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_186
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1da08c6d8cb3ab14e9053e634e4e109c
-      internalID: 71040231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_187
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce0da077dd20e954d9f65e7b323ea74a
-      internalID: -1497291053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_188
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afcf1cdd18be58e4486391e73fb96b7b
-      internalID: 2032430852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_189
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bed2a459278deb428db3b55f1ff61e3
-      internalID: -898865724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_190
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2473dea27d753404a9a5ded4b0d0be62
-      internalID: -625478628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_191
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd987b61880b8554c8237d867572d9c4
-      internalID: 2022461359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_192
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49664c30f48f5be49bada34e27e70f62
-      internalID: 516977548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_193
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0df92646afc9e0845a52e083744ab084
-      internalID: -1352555300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_194
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a80c590673319ff4aa8d9d0e39192071
-      internalID: -525291828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_195
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 24
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 288b122f713c7bf4bba081659ebcaa9d
-      internalID: 1593977347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_196
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7f935a69ec27cc4693f5f84a0123cf8
-      internalID: 12869154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_197
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365cbca85f5f2394c9bbd8ccc5783f32
-      internalID: -1800353278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_198
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5c73c8c6df90cc43bd2984c97d673f7
-      internalID: 703648372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_199
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d8d68e241bc20d48a9c6803b2f9017c
-      internalID: -2040007609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_200
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b17863df2670a3499a8e4b00c8a5d69
-      internalID: 1734607703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_201
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d72363f01702af40b8ea1efbfb3a01b
-      internalID: -1061513288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_202
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62b3cce08a580ee41a06bc9550fac49f
-      internalID: 1946169318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_203
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3649e668a78474a4c9df738260e4a2f2
-      internalID: 1077726087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_204
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18e08c93125af32478f6462e76cf6ade
-      internalID: -2094481000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_205
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3d487a514bde4445acd4db8827ed9a6
-      internalID: 922818734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_206
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd898de10613e34c8b9dbe802420bbf
-      internalID: 29660093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_207
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c8994bddfee4aa49abc87dc790e0b1b
-      internalID: 1276102860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_208
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6aa797984d5d4914bbe08c6e41acc5c0
-      internalID: -253870687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_209
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c4213b3e1d46264a9193c4b291c9e35
-      internalID: -1791236773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_210
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d281f497987cf304e8da48fcc7728c8e
-      internalID: 376860682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_211
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 16
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52f0e0599c69a324fabb54dc455d0ca1
-      internalID: 1315414063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_212
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83f29e56e15570048b1bb3bf807b6738
-      internalID: 326833974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_213
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 691c31a57bfefbc488620fda3671aa3a
-      internalID: -385572710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_214
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6544c7ca17a0def4986e54025f4d7d51
-      internalID: -1921966697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_215
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bded67be646bd924290557b554b0414c
-      internalID: 1269473774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_216
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c82a075a1324fcd4d83c8fcdf8e4fd64
-      internalID: 1210112251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_217
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a79d37200e4f9cf40ad5c989835a420a
-      internalID: -1787236166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_218
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3a4b534807cdf44ba08cefe7c73b9e9
-      internalID: 2005148217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_219
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffab823decfa41d40b15599ff6a2b68f
-      internalID: -1407146374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_220
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb3cfcf6a883c8347909721590b33d56
-      internalID: 70357286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_221
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6d8cc6de752e1c4fa4dec2931837372
-      internalID: -1785069406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_222
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee8842eab09993d45a1b662e99b21dda
-      internalID: -375264203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_223
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d85e64ceaf6070e41b4a6ba380b03148
-      internalID: 1436739910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_224
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06504b51967f5af4ba94f1e3ac640f7a
-      internalID: -1493879412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_225
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4700becd2d768b54fb5a6894a0f2d56a
-      internalID: -490527609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_226
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33f110897c0f52d4687d1e2898a921fb
-      internalID: -656245865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_227
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 8
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67b8798d158de9645a2fce8756a5da80
-      internalID: 426131307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_228
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d39a80ccc4aba924cbc0193eea33c8e4
-      internalID: -2077264601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_229
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 586c75b3e88fe2d42a3680ea4c72764e
-      internalID: -805056407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_230
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4464a864bd7051b408b6d7a970682846
-      internalID: -1304813056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_231
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe6d37c28e9cd454c9606671cac317f4
-      internalID: 1485588123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_232
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1a4339276476b844b2aaa307cbb462d
-      internalID: -291033150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_233
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f92cd1e048adf54458eda0622e8a626c
-      internalID: 1178840756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_234
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0651ae8029ed7848b74570b97b33414
-      internalID: 205392093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_235
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6569cdec1a8a5e4e8e6a2a353bbbb0a
-      internalID: -1537155802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_236
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 096ea13054b8d1b4f81acea2659bcb1d
-      internalID: -1696560944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_237
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a971c5e12f5830340b282be79fb5fed3
-      internalID: 590311465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_238
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b5f2367fa9f91944964939bfebdbe60
-      internalID: 488343932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_239
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e9ef528faba3fb45a65a56fe2d5ee67
-      internalID: -845635008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_240
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d2e6ba3646d5fb49a0c5c8c3d9073b0
-      internalID: 1054729673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_241
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfdc6d544ec537448a93dcad369fa6cd
-      internalID: 1654394920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_242
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 879935e202e96b349b44ba7d60c5365b
-      internalID: 2078518635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_SmallItems_243
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63b0e6b276df0c74abbdddca67983b0c
-      internalID: 1858711749
       vertices: []
       indices: 
       edges: []
@@ -5263,250 +1420,67 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TopDownHouse_SmallItems_67: -1212455045
-      TopDownHouse_SmallItems_209: -1791236773
+      TopDownHouse_SmallItems_27: -1396669285
+      TopDownHouse_SmallItems_37: -133421458
       TopDownHouse_SmallItems_24: -1249044980
-      TopDownHouse_SmallItems_63: 822790327
-      TopDownHouse_SmallItems_141: 1137593260
+      TopDownHouse_SmallItems_60: 621888978
+      TopDownHouse_SmallItems_56: -1993922942
+      TopDownHouse_SmallItems_6: 836206595
+      TopDownHouse_SmallItems_23: -978342689
+      TopDownHouse_SmallItems_29: -1216890681
+      TopDownHouse_SmallItems_21: -189567038
       TopDownHouse_SmallItems_43: -1525253975
       TopDownHouse_SmallItems_39: -1351140695
       TopDownHouse_SmallItems_45: -1803019882
-      TopDownHouse_SmallItems_213: -385572710
-      TopDownHouse_SmallItems_114: 1509226954
       TopDownHouse_SmallItems_8: -459615885
-      TopDownHouse_SmallItems_119: 1393819672
-      TopDownHouse_SmallItems_93: 2043251800
-      TopDownHouse_SmallItems_187: -1497291053
-      TopDownHouse_SmallItems_44: -1206142948
-      TopDownHouse_SmallItems_223: 1436739910
-      TopDownHouse_SmallItems_220: 70357286
-      TopDownHouse_SmallItems_147: 722884980
-      TopDownHouse_SmallItems_59: 673706470
-      TopDownHouse_SmallItems_150: 1263214765
-      TopDownHouse_SmallItems_203: 1077726087
-      TopDownHouse_SmallItems_7: -80130206
-      TopDownHouse_SmallItems_10: -1802248287
-      TopDownHouse_SmallItems_97: -976853717
-      TopDownHouse_SmallItems_137: 1757784355
-      TopDownHouse_SmallItems_231: 1485588123
-      TopDownHouse_SmallItems_188: 2032430852
-      TopDownHouse_SmallItems_4: -140476931
-      TopDownHouse_SmallItems_198: 703648372
-      TopDownHouse_SmallItems_17: 1031481478
-      TopDownHouse_SmallItems_106: -984647842
-      TopDownHouse_SmallItems_174: -1619849798
-      TopDownHouse_SmallItems_190: -625478628
-      TopDownHouse_SmallItems_168: -511088819
-      TopDownHouse_SmallItems_125: 480941262
-      TopDownHouse_SmallItems_135: -1052124480
-      TopDownHouse_SmallItems_109: 1186971223
-      TopDownHouse_SmallItems_233: 1178840756
-      TopDownHouse_SmallItems_184: -1688087972
-      TopDownHouse_SmallItems_140: 1857842809
-      TopDownHouse_SmallItems_225: -490527609
-      TopDownHouse_SmallItems_143: 1342967898
-      TopDownHouse_SmallItems_81: -1113303657
-      TopDownHouse_SmallItems_152: -1823323628
-      TopDownHouse_SmallItems_200: 1734607703
-      TopDownHouse_SmallItems_239: -845635008
-      TopDownHouse_SmallItems_144: -348898411
-      TopDownHouse_SmallItems_47: 333349633
-      TopDownHouse_SmallItems_11: -306818627
-      TopDownHouse_SmallItems_134: 1763274910
-      TopDownHouse_SmallItems_235: -1537155802
-      TopDownHouse_SmallItems_31: -1089955766
-      TopDownHouse_SmallItems_242: 2078518635
-      TopDownHouse_SmallItems_104: -1656418842
-      TopDownHouse_SmallItems_204: -2094481000
-      TopDownHouse_SmallItems_139: -377544469
-      TopDownHouse_SmallItems_161: -909999406
-      TopDownHouse_SmallItems_27: -1396669285
-      TopDownHouse_SmallItems_177: -2065118126
-      TopDownHouse_SmallItems_37: -133421458
-      TopDownHouse_SmallItems_238: 488343932
-      TopDownHouse_SmallItems_6: 836206595
-      TopDownHouse_SmallItems_23: -978342689
-      TopDownHouse_SmallItems_157: 643601379
-      TopDownHouse_SmallItems_21: -189567038
-      TopDownHouse_SmallItems_83: 447321306
-      TopDownHouse_SmallItems_227: 426131307
-      TopDownHouse_SmallItems_192: 516977548
-      TopDownHouse_SmallItems_100: 1153831069
-      TopDownHouse_SmallItems_78: -861399357
-      TopDownHouse_SmallItems_87: 1662446990
-      TopDownHouse_SmallItems_237: 590311465
-      TopDownHouse_SmallItems_155: -1310135098
-      TopDownHouse_SmallItems_0: 1277936153
-      TopDownHouse_SmallItems_89: -1624018600
-      TopDownHouse_SmallItems_179: 1327454916
-      TopDownHouse_SmallItems_211: 1315414063
-      TopDownHouse_SmallItems_84: -973553416
-      TopDownHouse_SmallItems_199: -2040007609
-      TopDownHouse_SmallItems_18: -667516125
-      TopDownHouse_SmallItems_70: 30377309
-      TopDownHouse_SmallItems_102: -1373566739
-      TopDownHouse_SmallItems_185: 273211056
-      TopDownHouse_SmallItems_159: -2026323565
-      TopDownHouse_SmallItems_54: -105258500
-      TopDownHouse_SmallItems_95: -1759928896
-      TopDownHouse_SmallItems_224: -1493879412
-      TopDownHouse_SmallItems_154: 3733263
-      TopDownHouse_SmallItems_99: 217212471
-      TopDownHouse_SmallItems_110: -1285325725
-      TopDownHouse_SmallItems_88: 1830851436
-      TopDownHouse_SmallItems_201: -1061513288
-      TopDownHouse_SmallItems_196: 12869154
-      TopDownHouse_SmallItems_16: -1561443495
-      TopDownHouse_SmallItems_69: 2005168300
-      TopDownHouse_SmallItems_170: 1929561929
-      TopDownHouse_SmallItems_175: 620934757
-      TopDownHouse_SmallItems_210: 376860682
-      TopDownHouse_SmallItems_113: 249664479
-      TopDownHouse_SmallItems_71: 1016603739
-      TopDownHouse_SmallItems_36: 622163396
-      TopDownHouse_SmallItems_91: 932712978
-      TopDownHouse_SmallItems_236: -1696560944
-      TopDownHouse_SmallItems_25: -615552202
-      TopDownHouse_SmallItems_33: 628438386
-      TopDownHouse_SmallItems_112: 1472203035
-      TopDownHouse_SmallItems_208: -253870687
-      TopDownHouse_SmallItems_115: 135075868
-      TopDownHouse_SmallItems_66: -1341028011
-      TopDownHouse_SmallItems_153: 1391572527
-      TopDownHouse_SmallItems_64: 983744839
-      TopDownHouse_SmallItems_50: -1312117422
-      TopDownHouse_SmallItems_9: 74303433
-      TopDownHouse_SmallItems_136: 1241470345
-      TopDownHouse_SmallItems_40: 1555144807
-      TopDownHouse_SmallItems_79: 87941681
-      TopDownHouse_SmallItems_164: -1776389646
-      TopDownHouse_SmallItems_181: -1789977587
-      TopDownHouse_SmallItems_149: -302307556
-      TopDownHouse_SmallItems_96: -1030313662
-      TopDownHouse_SmallItems_35: 880165427
-      TopDownHouse_SmallItems_19: -1673932127
-      TopDownHouse_SmallItems_194: -525291828
-      TopDownHouse_SmallItems_197: -1800353278
-      TopDownHouse_SmallItems_145: 116166321
-      TopDownHouse_SmallItems_73: -180530229
-      TopDownHouse_SmallItems_74: 905782393
-      TopDownHouse_SmallItems_12: -2094477140
-      TopDownHouse_SmallItems_2: 1794748770
-      TopDownHouse_SmallItems_176: -662626204
-      TopDownHouse_SmallItems_189: -898865724
-      TopDownHouse_SmallItems_107: 906940306
-      TopDownHouse_SmallItems_241: 1654394920
-      TopDownHouse_SmallItems_56: -1993922942
-      TopDownHouse_SmallItems_121: 333086584
-      TopDownHouse_SmallItems_29: -1216890681
-      TopDownHouse_SmallItems_234: 205392093
-      TopDownHouse_SmallItems_118: -1072054759
-      TopDownHouse_SmallItems_183: -195589676
-      TopDownHouse_SmallItems_122: 1594406719
-      TopDownHouse_SmallItems_148: 1783498219
-      TopDownHouse_SmallItems_94: -796784660
       TopDownHouse_SmallItems_13: 1026481768
-      TopDownHouse_SmallItems_61: 1197574159
-      TopDownHouse_SmallItems_80: 511203042
-      TopDownHouse_SmallItems_120: -620669989
-      TopDownHouse_SmallItems_101: -570887017
-      TopDownHouse_SmallItems_158: -1782726825
+      TopDownHouse_SmallItems_14: -542836243
+      TopDownHouse_SmallItems_44: -1206142948
       TopDownHouse_SmallItems_1: -1568160414
-      TopDownHouse_SmallItems_62: 1458776549
+      TopDownHouse_SmallItems_0: 1277936153
       TopDownHouse_SmallItems_5: -420287479
       TopDownHouse_SmallItems_46: -37731157
-      TopDownHouse_SmallItems_49: -1626523330
-      TopDownHouse_SmallItems_75: 1321076621
-      TopDownHouse_SmallItems_129: -473924919
-      TopDownHouse_SmallItems_226: -656245865
-      TopDownHouse_SmallItems_124: -310087686
-      TopDownHouse_SmallItems_48: 453308360
-      TopDownHouse_SmallItems_202: 1946169318
-      TopDownHouse_SmallItems_76: 100284601
-      TopDownHouse_SmallItems_215: 1269473774
-      TopDownHouse_SmallItems_206: 29660093
-      TopDownHouse_SmallItems_126: -262082893
-      TopDownHouse_SmallItems_26: 1579367610
-      TopDownHouse_SmallItems_42: 1025114639
-      TopDownHouse_SmallItems_82: 2122920515
-      TopDownHouse_SmallItems_98: -1788765228
-      TopDownHouse_SmallItems_20: -528262603
-      TopDownHouse_SmallItems_186: 71040231
-      TopDownHouse_SmallItems_105: -520692406
-      TopDownHouse_SmallItems_165: -490042161
-      TopDownHouse_SmallItems_55: -213844589
-      TopDownHouse_SmallItems_130: -1083793637
-      TopDownHouse_SmallItems_232: -291033150
-      TopDownHouse_SmallItems_212: 326833974
-      TopDownHouse_SmallItems_240: 1054729673
-      TopDownHouse_SmallItems_173: 2110361671
-      TopDownHouse_SmallItems_146: 1706958538
-      TopDownHouse_SmallItems_52: 46881001
-      TopDownHouse_SmallItems_138: -1736801461
-      TopDownHouse_SmallItems_51: 1883309850
-      TopDownHouse_SmallItems_127: -98158467
-      TopDownHouse_SmallItems_103: -500601584
-      TopDownHouse_SmallItems_169: 2111816377
-      TopDownHouse_SmallItems_58: -1551757514
-      TopDownHouse_SmallItems_22: 718837066
-      TopDownHouse_SmallItems_160: -191510791
-      TopDownHouse_SmallItems_216: 1210112251
-      TopDownHouse_SmallItems_117: -1331757061
-      TopDownHouse_SmallItems_162: 173102583
-      TopDownHouse_SmallItems_243: 1858711749
-      TopDownHouse_SmallItems_60: 621888978
-      TopDownHouse_SmallItems_65: -1036032932
-      TopDownHouse_SmallItems_221: -1785069406
-      TopDownHouse_SmallItems_68: -1765235727
-      TopDownHouse_SmallItems_14: -542836243
-      TopDownHouse_SmallItems_222: -375264203
-      TopDownHouse_SmallItems_219: -1407146374
-      TopDownHouse_SmallItems_163: 1957628962
-      TopDownHouse_SmallItems_171: 1225159490
       TopDownHouse_SmallItems_53: -287662045
+      TopDownHouse_SmallItems_7: -80130206
+      TopDownHouse_SmallItems_10: -1802248287
       TopDownHouse_SmallItems_41: -1989731651
+      TopDownHouse_SmallItems_18: -667516125
       TopDownHouse_SmallItems_30: -341570551
-      TopDownHouse_SmallItems_205: 922818734
-      TopDownHouse_SmallItems_128: -582717738
-      TopDownHouse_SmallItems_182: -1688541056
-      TopDownHouse_SmallItems_214: -1921966697
-      TopDownHouse_SmallItems_218: 2005148217
+      TopDownHouse_SmallItems_49: -1626523330
+      TopDownHouse_SmallItems_59: 673706470
+      TopDownHouse_SmallItems_54: -105258500
+      TopDownHouse_SmallItems_48: 453308360
+      TopDownHouse_SmallItems_4: -140476931
       TopDownHouse_SmallItems_28: 1169549173
       TopDownHouse_SmallItems_38: 1044112389
-      TopDownHouse_SmallItems_85: 1002811789
-      TopDownHouse_SmallItems_151: -308962477
-      TopDownHouse_SmallItems_180: 1058486643
-      TopDownHouse_SmallItems_191: 2022461359
-      TopDownHouse_SmallItems_178: 2035218903
-      TopDownHouse_SmallItems_230: -1304813056
-      TopDownHouse_SmallItems_123: 728663293
-      TopDownHouse_SmallItems_207: 1276102860
+      TopDownHouse_SmallItems_16: -1561443495
+      TopDownHouse_SmallItems_17: 1031481478
+      TopDownHouse_SmallItems_26: 1579367610
+      TopDownHouse_SmallItems_42: 1025114639
+      TopDownHouse_SmallItems_20: -528262603
+      TopDownHouse_SmallItems_36: 622163396
+      TopDownHouse_SmallItems_25: -615552202
+      TopDownHouse_SmallItems_33: 628438386
       TopDownHouse_SmallItems_34: -674628617
-      TopDownHouse_SmallItems_86: -483192811
-      TopDownHouse_SmallItems_217: -1787236166
       TopDownHouse_SmallItems_3: -2094331596
-      TopDownHouse_SmallItems_111: -1500710529
-      TopDownHouse_SmallItems_133: 151496212
-      TopDownHouse_SmallItems_116: 458955124
-      TopDownHouse_SmallItems_195: 1593977347
-      TopDownHouse_SmallItems_228: -2077264601
-      TopDownHouse_SmallItems_132: -267869083
-      TopDownHouse_SmallItems_90: 1368471831
+      TopDownHouse_SmallItems_55: -213844589
+      TopDownHouse_SmallItems_50: -1312117422
+      TopDownHouse_SmallItems_9: 74303433
       TopDownHouse_SmallItems_57: -1995730199
-      TopDownHouse_SmallItems_167: 1808233429
-      TopDownHouse_SmallItems_193: -1352555300
-      TopDownHouse_SmallItems_77: 915141130
-      TopDownHouse_SmallItems_108: 1595426066
-      TopDownHouse_SmallItems_72: -2041377654
-      TopDownHouse_SmallItems_166: 1016135630
-      TopDownHouse_SmallItems_142: 1092222739
+      TopDownHouse_SmallItems_47: 333349633
+      TopDownHouse_SmallItems_11: -306818627
+      TopDownHouse_SmallItems_40: 1555144807
+      TopDownHouse_SmallItems_52: 46881001
       TopDownHouse_SmallItems_15: 286103975
-      TopDownHouse_SmallItems_131: 2064504551
+      TopDownHouse_SmallItems_19: -1673932127
+      TopDownHouse_SmallItems_31: -1089955766
       TopDownHouse_SmallItems_32: -65719978
-      TopDownHouse_SmallItems_172: -224279902
-      TopDownHouse_SmallItems_156: 1568410160
-      TopDownHouse_SmallItems_229: -805056407
-      TopDownHouse_SmallItems_92: 1649905860
+      TopDownHouse_SmallItems_51: 1883309850
+      TopDownHouse_SmallItems_35: 880165427
+      TopDownHouse_SmallItems_2: 1794748770
+      TopDownHouse_SmallItems_12: -2094477140
+      TopDownHouse_SmallItems_58: -1551757514
+      TopDownHouse_SmallItems_22: 718837066
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -742,8 +742,8 @@ MonoBehaviour:
   minLine: 4
   maxLine: 6
   fadeDuration: 0.75
-  publicOffSet: {x: -300, y: -350, z: 0}
-  privateOffSet: {x: 350, y: -350, z: 0}
+  publicOffSet: {x: -500, y: -200, z: 0}
+  privateOffSet: {x: 600, y: -200, z: 0}
   lines:
   - {fileID: 5306258358868029671}
   - {fileID: 5306258358978560896}
