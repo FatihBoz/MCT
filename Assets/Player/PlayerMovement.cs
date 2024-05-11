@@ -27,12 +27,6 @@ public class PlayerMovement : MonoBehaviour
         movement.Normalize();
         AnimationsSet();
 
-        if (Input.GetKey(KeyCode.F))
-        {
-            stealable = true;
-            Debug.Log("Toplanabilir");
-
-        }
     }
     private void FixedUpdate()
     {
@@ -47,19 +41,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+
         if (collision.gameObject.CompareTag("Stealable"))
         {
             text.gameObject.SetActive(true);
-            if (stealable)
+            if (Input.GetKey(KeyCode.F))
             {
-                if (collision.gameObject.CompareTag("Stealable"))
-                {
-                    Destroy(collision.gameObject);
-                    text.gameObject.SetActive(false);
-
-                }
+                Destroy(collision.gameObject);
+                text.gameObject.SetActive(false);
 
             }
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Stealable"))
+        {
+            text.gameObject.SetActive(false);
+
         }
 
     }
