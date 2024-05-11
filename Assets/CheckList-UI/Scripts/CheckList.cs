@@ -98,12 +98,13 @@ public class CheckList : MonoBehaviour
         {
             if(isOpen)
             {
-                rectTransform.DOMove(privatePos, 0.75f);
+                rectTransform.DOLocalMove(privatePos, 0.75f);
                 isOpen = false;
             }
             else
             {
-                rectTransform.DOMove(publicPos, 0.75f);
+                rectTransform.DOLocalMove(publicPos, 0.75f);
+
                 isOpen= true;
             }
         }
@@ -113,16 +114,16 @@ public class CheckList : MonoBehaviour
     {
         rectTransform = GetComponent<RectTransform>();
 
-        privatePos = rectTransform.position + privateOffSet;
-        publicPos = rectTransform.position + publicOffSet;
+        privatePos = rectTransform.localPosition + privateOffSet;
+        publicPos = rectTransform.localPosition + publicOffSet;
 
-        rectTransform.position = privatePos;
+        rectTransform.localPosition = privatePos;
     }
 
 
     private void OnDisable()
     {
-        PlayerMovement.OnObjectStolen += CheckList_OnObjectStolen;
+        PlayerMovement.OnObjectStolen -= CheckList_OnObjectStolen;
     }
 
  
