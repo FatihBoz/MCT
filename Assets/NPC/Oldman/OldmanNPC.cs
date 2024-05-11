@@ -18,6 +18,12 @@ public class OldmanNPC : NPC
     private Vector3 defaultLook;
      private Vector3 look;
     
+    private void OnEnable() {
+        PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
+    }
+    private void OnDisable() {
+         PlayerMovement.OnObjectStolen-=Oldman_ObjectStolen;
+    }
     public new void Start()
     {
         base.Start();
@@ -74,5 +80,8 @@ public class OldmanNPC : NPC
              PlayerSeen=true;
                 LastPlayerSeenPosition=player.transform.position;
         }
+    }
+    public void Oldman_ObjectStolen(StealableObject stealableObject){
+        
     }
 }
