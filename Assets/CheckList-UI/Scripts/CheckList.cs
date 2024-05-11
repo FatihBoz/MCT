@@ -27,9 +27,6 @@ public class CheckList : MonoBehaviour
     private Vector3 privatePos;
 
     private RectTransform rectTransform;
-
-    private float ratiox;
-    private float ratioy;
     #endregion
 
     private void OnEnable()
