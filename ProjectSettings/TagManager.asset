@@ -44,6 +44,9 @@ TagManager:
   - name: ground
     uniqueID: 1108299015
     locked: 0
+  - name: carpet
+    uniqueID: 106897117
+    locked: 0
   - name: wall
     uniqueID: 86544593
     locked: 0
