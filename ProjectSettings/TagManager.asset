@@ -54,9 +54,9 @@ TagManager:
   - name: furniture
     uniqueID: 2253800445
     locked: 0
-  - name: player
-    uniqueID: 1211401963
-    locked: 0
   - name: objects
     uniqueID: 2806430469
+    locked: 0
+  - name: player
+    uniqueID: 1211401963
     locked: 0
