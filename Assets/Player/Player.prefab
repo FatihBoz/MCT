@@ -144,7 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  text: {fileID: 0}
+  stealText: {fileID: 0}
+  scoreText: {fileID: 0}
   skillRadius: 5
   enemyLayer:
     serializedVersion: 2
@@ -177,6 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d642bc503eafa8641a506936ef3933f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skillCanBeCasted: 1
+  cooldown: 30
 --- !u!114 &1357063769
 MonoBehaviour:
   m_ObjectHideFlags: 0

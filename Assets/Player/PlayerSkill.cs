@@ -6,9 +6,10 @@ using UnityEngine;
 public class PlayerSkill : MonoBehaviour
 {
     public static Action OnSkillCasted;
-
-    public static bool skillCanBeCasted = true;
-    public static float cooldown = 30f;
+    public static PlayerSkill instance;
+    
+    public bool skillCanBeCasted = true;
+    public float cooldown = 30f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -16,8 +17,10 @@ public class PlayerSkill : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        Debug.Log(skillCanBeCasted);
     }
 
     private void Update()

@@ -19,17 +19,18 @@ public class PlayerSkillUI : MonoBehaviour
 
     private void Start()
     {
-        maxTime = PlayerSkill.cooldown;    }
+        maxTime = PlayerSkill.instance.cooldown;
+    }
 
     private void Update()
     {
-        if (!PlayerSkill.skillCanBeCasted)
+        if (!PlayerSkill.instance.skillCanBeCasted)
         {
             currentTime += Time.deltaTime;
 
             if(currentTime >= maxTime)
             {
-                PlayerSkill.skillCanBeCasted = true;
+                PlayerSkill.instance.skillCanBeCasted = true;
                 currentTime = 0;
                 return;
             }
@@ -45,7 +46,7 @@ public class PlayerSkillUI : MonoBehaviour
 
     private void PlayerSkillUI_OnSkillCasted()
     {
-        PlayerSkill.skillCanBeCasted = false;
+        PlayerSkill.instance.skillCanBeCasted = false;
     }
 
     private void OnDisable()
