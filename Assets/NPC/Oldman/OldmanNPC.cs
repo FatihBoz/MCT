@@ -14,8 +14,13 @@ public class OldmanNPC : NPC
     public float idleCheckDistance;
     public float walkingCheckDistance;
     public float stolenDetectDistance;
-    
+
+    public float baseSpeed;
+    public float increasedSpeed;
+
     public bool PlayerSeen;
+    public bool SkillCasted;
+    public bool HasImmunity;
     public Vector3 LastPlayerSeenPosition{get;private set;}
     
     private Vector3 defaultLook;
@@ -26,11 +31,26 @@ public class OldmanNPC : NPC
     private GameObject excMark;
     private GameObject queMark;
 
+    private float patrolTimeAfterSkillCasted = 0f;
+
+
+
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
+        PlayerSkill.OnSkillCasted += Oldman_OnSkillCasted;
     }
+
+    private void Oldman_OnSkillCasted()
+    {
+        SkillCasted = true;
+        HasImmunity = true;
+
+        agent.speed = baseSpeed;
+    }
+
     private void OnDisable() {
-         PlayerMovement.OnObjectStolen-=Oldman_ObjectStolen;
+        PlayerMovement.OnObjectStolen-=Oldman_ObjectStolen;
+        PlayerSkill.OnSkillCasted -= Oldman_OnSkillCasted;
     }
     public new void Start()
     {
@@ -51,17 +71,30 @@ public class OldmanNPC : NPC
 
         sc.InitalizeStateController(OldmanIdleState);
 
-
-
+        baseSpeed = agent.speed;
+        increasedSpeed = 5f;
     }
     void Update()
     {
         base.Update();
         sc.LogicUpdate();
+
         look=agent.velocity.normalized;
         if (look==Vector3.zero)
         {
             look=defaultLook;   
+        }
+
+        if (HasImmunity)
+        {
+            if (patrolTimeAfterSkillCasted >= 5f)
+            {
+                HasImmunity = false;
+                patrolTimeAfterSkillCasted = 0;
+                return;
+            }
+
+            patrolTimeAfterSkillCasted += Time.deltaTime;
         }
     }
     void FixedUpdate() {
@@ -122,6 +155,10 @@ public class OldmanNPC : NPC
     }
     public void SetFalseStolen(){
         Stolen=false;
+    }
+    public void SetFalseSkillCasted()
+    {
+        SkillCasted = false;
     }
     public float GetDistance(){
         return Vector3.Distance(transform.position,CurrentTargetPosition);

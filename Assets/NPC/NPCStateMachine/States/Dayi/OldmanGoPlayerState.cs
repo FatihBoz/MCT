@@ -18,7 +18,7 @@ public class OldmanGoPlayerState : OldmanState
         agent.isStopped=false;
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
         oldmanNpc.SetActiveExcMark(true);
-        agent.speed=5;
+        agent.speed = oldmanNpc.increasedSpeed;
         
     }
     public override void LogicUpdate()

@@ -381,4 +381,8 @@ MonoBehaviour:
   idleCheckDistance: 7
   walkingCheckDistance: 3
   stolenDetectDistance: 1000
+  baseSpeed: 0
+  increasedSpeed: 0
   PlayerSeen: 0
+  SkillCasted: 0
+  HasImmunity: 0

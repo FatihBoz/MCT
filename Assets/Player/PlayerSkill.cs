@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class PlayerSkill : MonoBehaviour
     public LayerMask enemyLayer;
 
     private Animator animator;
+
+    public static Action OnSkillCasted;
 
     private void Awake()
     {
@@ -26,7 +29,7 @@ public class PlayerSkill : MonoBehaviour
     {
         
         animator.SetTrigger("castSpell");
-
+        OnSkillCasted?.Invoke();
        
     }
 

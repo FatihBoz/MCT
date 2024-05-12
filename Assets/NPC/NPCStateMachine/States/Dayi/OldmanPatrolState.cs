@@ -12,7 +12,7 @@ public class OldmanPatrolState : OldmanState
     public override void Enter()
     {
         base.Enter();
-        
+        oldmanNpc.SetFalseSkillCasted();
         Debug.Log("Patrol");
         oldmanNpc.SelectRandomPosition();
         agent.isStopped=false;
