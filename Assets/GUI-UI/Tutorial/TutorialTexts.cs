@@ -6,25 +6,43 @@ using UnityEngine;
 public class TutorialTexts : MonoBehaviour
 {
     public Tutorial[] tutorials;
-
     public TextMeshProUGUI Text;
 
     private int currentSequence = 0;
 
     private void Start()
     {
-        Text.text = tutorials[currentSequence].text;
-
-
+        ShowTutorial(currentSequence);
     }
-    private void Update()
-    {
-        
-    }
+
     public void nextTutorial()
     {
         currentSequence++;
-        Text.text = tutorials[currentSequence].text;
+        if (currentSequence < tutorials.Length)
+        {
+            ShowTutorial(currentSequence);
+        }
+        else
+        {
+            currentSequence = tutorials.Length - 1;
+        }
     }
-    
+
+    public void prevTutorial()
+    {
+        currentSequence--;
+        if (currentSequence >= 0)
+        {
+            ShowTutorial(currentSequence);
+        }
+        else
+        {
+            currentSequence = 0;
+        }
+    }
+
+    private void ShowTutorial(int index)
+    {
+        Text.text = tutorials[index].text;
+    }
 }

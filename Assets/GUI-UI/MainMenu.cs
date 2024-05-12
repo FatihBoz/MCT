@@ -15,6 +15,8 @@ public class MainMenu : MonoBehaviour
     private bool loading;
 
     public TextMeshProUGUI maxScoreText;
+
+    public GameObject tutorial;
     void Start()
     {
         if (!PlayerPrefs.HasKey("maxScore"))
@@ -25,6 +27,8 @@ public class MainMenu : MonoBehaviour
         mainCamera=Camera.main;
         goingToScene=false;
         loading=false;
+
+        tutorial.SetActive(false);
     }
 
     void Update()
@@ -52,6 +56,18 @@ public class MainMenu : MonoBehaviour
         goingToScene=true;
         buttons.gameObject.SetActive(false);
             selectedScene=2;
+    }
+    public void TutorialPressed()
+    {
+        if (tutorial.activeInHierarchy)
+        {
+            tutorial.SetActive(false);
+        }
+        else
+        {
+            tutorial.SetActive(true);
+        }
+
     }
     
 }
