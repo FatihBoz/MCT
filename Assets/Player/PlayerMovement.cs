@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
-    public static Action OnSkillCasted;
+    
     
 
     public delegate void ObjectStealingHandler(StealableObject obj);
@@ -39,10 +39,7 @@ public class PlayerMovement : MonoBehaviour
         movement.Normalize();
         AnimationsSet();
 
-        if (Input.GetKeyDown(KeyCode.E) && movement == Vector2.zero)
-        {
-           CastSkill();
-        }
+       
 
     }
     private void FixedUpdate()
@@ -83,11 +80,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-    void CastSkill()
-    {
-        anim.SetTrigger("castSpell");
-        OnSkillCasted?.Invoke();  
-    }
+ 
 
     
 }

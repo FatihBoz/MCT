@@ -37,7 +37,7 @@ public class OldmanNPC : NPC
 
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
-        PlayerMovement.OnSkillCasted += Oldman_OnSkillCasted;
+        PlayerSkill.OnSkillCasted += Oldman_OnSkillCasted;
     }
 
     private void Oldman_OnSkillCasted()
@@ -50,7 +50,7 @@ public class OldmanNPC : NPC
 
     private void OnDisable() {
         PlayerMovement.OnObjectStolen-=Oldman_ObjectStolen;
-        PlayerMovement.OnSkillCasted -= Oldman_OnSkillCasted;
+        PlayerSkill.OnSkillCasted -= Oldman_OnSkillCasted;
     }
     public new void Start()
     {
