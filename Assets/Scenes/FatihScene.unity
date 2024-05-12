@@ -69732,6 +69732,11 @@ Transform:
   m_Father: {fileID: 1801079107}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765086092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 765086092, guid: a2f968c7aa173fa42998daf3b2167344, type: 3}
+  m_PrefabInstance: {fileID: 5306258358530175458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &798658641 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3798883239220578349, guid: 89916fc51989bf44eb5d6c505721e48f, type: 3}
@@ -71069,14 +71074,6 @@ PrefabInstance:
       propertyPath: positions
       value: 
       objectReference: {fileID: 1801079107}
-    - target: {fileID: 7938065026071646864, guid: fb4ab603603e7e248a50b72dfb316c58, type: 3}
-      propertyPath: idleCheckDistance
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938065026071646864, guid: fb4ab603603e7e248a50b72dfb316c58, type: 3}
-      propertyPath: walkingCheckDistance
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb4ab603603e7e248a50b72dfb316c58, type: 3}
 --- !u!1001 &5306258358530175458
@@ -71086,10 +71083,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 393175312}
     m_Modifications:
-    - target: {fileID: 765086092, guid: a2f968c7aa173fa42998daf3b2167344, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5306258358539482505, guid: a2f968c7aa173fa42998daf3b2167344, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -71242,6 +71235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5306258359052895848, guid: a2f968c7aa173fa42998daf3b2167344, type: 3}
+      propertyPath: CheckMark
+      value: 
+      objectReference: {fileID: 765086092}
     - target: {fileID: 5306258359785413037, guid: a2f968c7aa173fa42998daf3b2167344, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
