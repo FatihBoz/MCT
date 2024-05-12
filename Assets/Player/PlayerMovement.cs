@@ -17,13 +17,11 @@ public class PlayerMovement : MonoBehaviour
     private bool stealable;
 
     public TextMeshProUGUI scoreText;
-    private int playerScore = 0;
+    public int playerScore = 0;
 
     public float skillRadius;
     public LayerMask enemyLayer;
 
-
-    
 
     public static Action OnLose;
 
@@ -44,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
         movement.Normalize();
         AnimationsSet();
        
-
     }
     private void updateScore()
     {

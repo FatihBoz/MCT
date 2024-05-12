@@ -6,6 +6,7 @@ using DG.Tweening;
 
 public class CheckList : MonoBehaviour
 {
+    public static bool canFinish;
     #region PUBLIC
     public int minLine;
     public int maxLine;
@@ -94,6 +95,7 @@ public class CheckList : MonoBehaviour
                 if (PlayerWins())
                 {
                     CheckMark.SetActive(true);
+                    canFinish = true;
                 }
                 
             }

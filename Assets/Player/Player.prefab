@@ -147,6 +147,7 @@ MonoBehaviour:
   movement: {x: 0, y: 0}
   stealText: {fileID: 0}
   scoreText: {fileID: 0}
+  playerScore: 0
   skillRadius: 5
   enemyLayer:
     serializedVersion: 2
