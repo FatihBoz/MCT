@@ -48,9 +48,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Stealable"))
         {
             text.gameObject.SetActive(true);
+            StealableObject obj = collision.gameObject.GetComponent<StealableObject>();
+            text.text = "Press 'F' to steal this item : " + obj.name;
             if (Input.GetKey(KeyCode.F))
             {
-                OnObjectStolen?.Invoke(collision.gameObject.GetComponent<StealableObject>());
+                OnObjectStolen?.Invoke(obj);
                 Destroy(collision.gameObject);
                 text.gameObject.SetActive(false);
 
