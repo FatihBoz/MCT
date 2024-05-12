@@ -45,7 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: maxCount
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3231013451604071522, guid: fe7a9050f313f40498ac001eb3977aa9, type: 3}
       propertyPath: scorePoint
