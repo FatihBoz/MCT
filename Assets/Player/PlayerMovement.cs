@@ -53,6 +53,10 @@ public class PlayerMovement : MonoBehaviour
     private void updateScore()
     {
         scoreText.text = "Score : " + playerScore;
+        if (PlayerPrefs.GetInt("maxScore")<playerScore)
+        {
+            PlayerPrefs.SetInt("maxScore",playerScore);
+        }
     }
     private void FixedUpdate()
     {

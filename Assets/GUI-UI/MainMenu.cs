@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,8 +13,15 @@ public class MainMenu : MonoBehaviour
     public Image background;
     private int selectedScene=0;
     private bool loading;
+
+    public TextMeshProUGUI maxScoreText;
     void Start()
     {
+        if (!PlayerPrefs.HasKey("maxScore"))
+        {
+            PlayerPrefs.SetInt("maxScore",0);
+        }
+        maxScoreText.text="Maximum score is "+ PlayerPrefs.GetInt("maxScore").ToString();
         mainCamera=Camera.main;
         goingToScene=false;
         loading=false;
