@@ -24,7 +24,8 @@ public class PlayerMovement : MonoBehaviour
 
 
     
-    
+
+    public static Action OnLose;
 
     public delegate void ObjectStealingHandler(StealableObject obj);
     public static event ObjectStealingHandler OnObjectStolen;
@@ -36,14 +37,12 @@ public class PlayerMovement : MonoBehaviour
         updateScore();
 
     }
-
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Normalize();
         AnimationsSet();
-
        
 
     }
