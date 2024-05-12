@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public float skillRadius;
     public LayerMask enemyLayer;
 
+    public SoundManager sound;
 
     public static Action OnLose;
 
@@ -74,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 OnObjectStolen?.Invoke(obj);
                 playerScore += collision.gameObject.GetComponent<StealableObject>().scorePoint;
+                sound.PickUp();
                 Destroy(collision.gameObject);
                 updateScore();
                 stealText.gameObject.SetActive(false);
