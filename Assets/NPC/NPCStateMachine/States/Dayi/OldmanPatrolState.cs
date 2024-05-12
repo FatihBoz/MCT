@@ -21,8 +21,8 @@ public class OldmanPatrolState : OldmanState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!isExitingState && agent.remainingDistance<0.1f)
-        {
+        if (!isExitingState && oldmanNpc.GetDistance()<=0.5f)
+        {   
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }
     }

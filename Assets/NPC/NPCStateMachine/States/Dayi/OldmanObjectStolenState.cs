@@ -10,21 +10,26 @@ public class OldmanObjectStolenState : OldmanState
     }
     public override void Enter()
     {
+        oldmanNpc.SetFalseStolen();
         base.Enter();
-        Debug.Log("object stolen "+oldmanNpc.StolenPosition);
-        agent.isStopped=true;
+        Debug.Log("Object Stolen");
         agent.isStopped=false;
-        agent.SetDestination(oldmanNpc.transform.position);
+        agent.SetDestination(oldmanNpc.CurrentTargetPosition);
+        
+        oldmanNpc.SetActiveExcMark(true);
     }
      public override void LogicUpdate()
     {
         base.LogicUpdate();
-       
-        if (!isExitingState && agent.remainingDistance<0.1f)
+        if (!isExitingState && oldmanNpc.GetDistance()<=0.5f)
         {   
-            oldmanNpc.SetFalseStolen();
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }
+    }
+    public override void Exit()
+    {
+        base.Exit();
+        oldmanNpc.SetActiveExcMark(false);
     }
 
 }

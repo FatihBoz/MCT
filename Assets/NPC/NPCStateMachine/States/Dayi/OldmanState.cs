@@ -11,11 +11,17 @@ public class OldmanState : State
         this.oldmanNpc=oldmanNpc;
     }
     public override void LogicUpdate(){
-         if (oldmanNpc.PlayerSeen)
+        if (oldmanNpc.PlayerSeen)
         {
             sc.ChangeState(oldmanNpc.OldmanGoPlayerState);
-        }else if(!isExitingState && oldmanNpc.Stolen){
+        }
+        if(!isExitingState && oldmanNpc.Stolen){
             sc.ChangeState(oldmanNpc.OldmanObjectStolenState);
         }
+    }
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+        oldmanNpc.CheckOnWalk();
     }
 }

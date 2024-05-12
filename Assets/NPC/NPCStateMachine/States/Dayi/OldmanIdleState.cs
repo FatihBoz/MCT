@@ -14,6 +14,7 @@ public class OldmanIdleState : OldmanState
         base.Enter();
         Debug.Log("idle");
         agent.isStopped=true;
+        oldmanNpc.SetActiveQueMark(true);
     }
     public override void LogicUpdate()
     {
@@ -31,6 +32,7 @@ public class OldmanIdleState : OldmanState
     public override void Exit()
     {
         base.Exit();
+        oldmanNpc.SetActiveQueMark(false);
         agent.isStopped=false;
     }
 }

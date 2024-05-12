@@ -12,6 +12,8 @@ public class OldmanNPC : NPC
     public OldmanObjectStolenState OldmanObjectStolenState{get;private set;}
     
     public float idleCheckDistance;
+    public float walkingCheckDistance;
+    public float stolenDetectDistance;
     
     public bool PlayerSeen;
     public Vector3 LastPlayerSeenPosition{get;private set;}
@@ -21,7 +23,8 @@ public class OldmanNPC : NPC
 
      public bool Stolen{get;private set;}
      public Vector3 StolenPosition{get;private set;}
-    
+    private GameObject excMark;
+    private GameObject queMark;
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
     }
@@ -37,6 +40,13 @@ public class OldmanNPC : NPC
         OldmanPatrolState=new OldmanPatrolState(sc,agent,this);
         OldmanGoPlayerState=new OldmanGoPlayerState(sc,agent,this);
         OldmanObjectStolenState=new OldmanObjectStolenState(sc,agent,this);
+
+
+        excMark=transform.Find("excMark").gameObject;
+        SetActiveExcMark(false);
+        
+        queMark=transform.Find("queMark").gameObject;
+        SetActiveQueMark(false);
 
         sc.InitalizeStateController(OldmanIdleState);
 
@@ -65,7 +75,7 @@ public class OldmanNPC : NPC
             if (hit.collider.CompareTag("Player"))
             {
                 PlayerSeen=true;
-                LastPlayerSeenPosition=hit.collider.transform.position;
+                CurrentTargetPosition=hit.collider.transform.position;
             }
         }
     }
@@ -73,6 +83,7 @@ public class OldmanNPC : NPC
         Gizmos.DrawLine(transform.position,transform.position+look*5);
     
         Gizmos.DrawWireSphere(transform.position,idleCheckDistance);
+        Gizmos.DrawWireSphere(transform.position,walkingCheckDistance);
     }
     public void SelectRandomPosition(){
         int randomValue=Random.Range(0,positions.childCount);
@@ -83,13 +94,23 @@ public class OldmanNPC : NPC
         if (player!=null)
         {
              PlayerSeen=true;
-                LastPlayerSeenPosition=player.transform.position;
+             SetActiveExcMark(true);
+                CurrentTargetPosition=player.transform.position;
+        }
+    }
+    public void CheckOnWalk(){
+        Collider2D player=Physics2D.OverlapCircle(transform.position,walkingCheckDistance,LayerMask.GetMask("Player"));
+        if (player!=null)
+        {
+            PlayerSeen=true;
+            SetActiveExcMark(true);
+            CurrentTargetPosition=player.transform.position;
         }
     }
     public void Oldman_ObjectStolen(StealableObject stealableObject){
         
-       StolenPosition=stealableObject.gameObject.transform.position;
-        if (Vector3.Distance(StolenPosition,transform.position)<=1000)
+        CurrentTargetPosition=stealableObject.gameObject.transform.position;
+        if (Vector3.Distance(StolenPosition,transform.position)<=stolenDetectDistance)
         {
             Stolen=true;
         }else
@@ -99,5 +120,13 @@ public class OldmanNPC : NPC
     }
     public void SetFalseStolen(){
         Stolen=false;
+    }
+    public float GetDistance(){
+        return Vector3.Distance(transform.position,CurrentTargetPosition);
+    }
+    public void SetActiveExcMark(bool state){
+        excMark.SetActive(state);
+    } public void SetActiveQueMark(bool state){
+        queMark.SetActive(state);
     }
 }
