@@ -23,7 +23,6 @@ public class CameraAnimation : MonoBehaviour
         var step = speed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, step);
 
-        // Check if the position of the cube and sphere are approximately equal.
         if (Vector3.Distance(transform.position, target.transform.position) < 0.05f)
         {
             target = target.GetNextPoint();
