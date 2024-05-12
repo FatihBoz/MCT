@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,7 +35,7 @@ public class OldmanNPC : NPC
     private float patrolTimeAfterSkillCasted = 0f;
 
 
-
+    public static Action OnLose;
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
         PlayerSkill.OnSkillCasted += Oldman_OnSkillCasted;
@@ -122,7 +123,7 @@ public class OldmanNPC : NPC
         Gizmos.DrawWireSphere(transform.position,stolenDetectDistance);
     }
     public void SelectRandomPosition(){
-        int randomValue=Random.Range(0,positions.childCount);
+        int randomValue=UnityEngine.Random.Range(0,positions.childCount);
         CurrentTargetPosition=positions.GetChild(randomValue).position;
     }
     public void CheckOnIdle(){
