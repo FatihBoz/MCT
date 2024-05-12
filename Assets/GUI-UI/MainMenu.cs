@@ -31,15 +31,15 @@ public class MainMenu : MonoBehaviour
     {
             if (goingToScene)
             {
-                mainCamera.orthographicSize-=Time.deltaTime*5;
+                mainCamera.orthographicSize-=Time.deltaTime;
                 Color curColor=background.color;
-                curColor.a-=Time.deltaTime*5;
+                curColor.a-=Time.deltaTime;
                 background.color=curColor;
                 if (mainCamera.orthographicSize<=6 && !loading)
                 {
                     loading=true;
-                    StartCoroutine(LoadYourAsyncScene());
-                }
+                SceneManager.LoadScene(selectedScene);
+            }
 
             }
     }
@@ -54,12 +54,4 @@ public class MainMenu : MonoBehaviour
             selectedScene=2;
     }
     
-    IEnumerator LoadYourAsyncScene()
-    { 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(selectedScene);
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
-    }
 }

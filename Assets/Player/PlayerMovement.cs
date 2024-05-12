@@ -8,9 +8,10 @@ using UnityEngine.UIElements;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public Vector2 movement;
     private Rigidbody2D rb;
     private Animator anim;
-    private Vector2 movement;
+    
 
     public TextMeshProUGUI stealText;
     private bool stealable;
@@ -21,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     public float skillRadius;
     public LayerMask enemyLayer;
 
-    private Animator animator;
 
     
     

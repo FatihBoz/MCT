@@ -13,19 +13,21 @@ public class PlayerSkill : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private PlayerMovement movement;
     
 
     private void Awake()
     {
         instance = this;
+        movement = GetComponent<PlayerMovement>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        Debug.Log(skillCanBeCasted);
+        
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && rb.velocity == Vector2.zero && skillCanBeCasted)
+        if (Input.GetKeyDown(KeyCode.E) && movement.movement == Vector2.zero && skillCanBeCasted)
         {
             CastSkill();
         }

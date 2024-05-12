@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  movement: {x: 0, y: 0}
   stealText: {fileID: 0}
   scoreText: {fileID: 0}
   skillRadius: 5
