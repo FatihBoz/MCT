@@ -12,8 +12,11 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private Vector2 movement;
 
-    public TextMeshProUGUI text;
+    public TextMeshProUGUI stealText;
     private bool stealable;
+
+    public TextMeshProUGUI scoreText;
+    private int playerScore = 0;
 
     public float skillRadius;
     public LayerMask enemyLayer;
@@ -29,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        stealText.gameObject.SetActive(false);
+        updateScore();
 
     }
 
@@ -44,6 +49,10 @@ public class PlayerMovement : MonoBehaviour
            CastSkill();
         }
 
+    }
+    private void updateScore()
+    {
+        scoreText.text = "Score : " + playerScore;
     }
     private void FixedUpdate()
     {
@@ -61,14 +70,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Stealable"))
         {
-            text.gameObject.SetActive(true);
+            stealText.gameObject.SetActive(true);
             StealableObject obj = collision.gameObject.GetComponent<StealableObject>();
-            text.text = "Press 'F' to steal this item : " + obj.name;
+            stealText.text = "Press 'F' to steal this item : " + obj.name;
             if (Input.GetKey(KeyCode.F))
             {
                 OnObjectStolen?.Invoke(obj);
+                playerScore += collision.gameObject.GetComponent<StealableObject>().scorePoint;
                 Destroy(collision.gameObject);
-                text.gameObject.SetActive(false);
+                updateScore();
+                stealText.gameObject.SetActive(false);
 
             }
         }
@@ -78,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Stealable"))
         {
-            text.gameObject.SetActive(false);
+            stealText.gameObject.SetActive(false);
 
         }
 
