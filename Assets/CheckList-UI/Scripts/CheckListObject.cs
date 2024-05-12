@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CheckListObject
 {
+    public bool ObjectsAreCollected;
+
     #region PRIVATE
     private string name;
     private int maxCount;
@@ -33,6 +35,7 @@ public class CheckListObject
         if (currentCount >= maxCount)
         {
             text.alpha = 0.25f;
+            ObjectsAreCollected = true;
             
         }
     }

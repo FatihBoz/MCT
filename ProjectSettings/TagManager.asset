@@ -63,3 +63,6 @@ TagManager:
   - name: emotes
     uniqueID: 2906755463
     locked: 0
+  - name: UI
+    uniqueID: 3758182311
+    locked: 0
