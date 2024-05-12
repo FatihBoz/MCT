@@ -18,12 +18,13 @@ public class OldmanGoPlayerState : OldmanState
         agent.isStopped=false;
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
         oldmanNpc.SetActiveExcMark(true);
+        agent.speed=5;
         
     }
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!isExitingState && oldmanNpc.GetDistance()<=0.5f && !oldmanNpc.PlayerSeen)
+        if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2 && !oldmanNpc.PlayerSeen)
         {
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }

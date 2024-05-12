@@ -21,7 +21,7 @@ public class OldmanObjectStolenState : OldmanState
      public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!isExitingState && oldmanNpc.GetDistance()<=0.5f)
+        if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2)
         {   
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }

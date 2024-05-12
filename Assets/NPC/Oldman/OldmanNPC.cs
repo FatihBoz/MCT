@@ -25,6 +25,7 @@ public class OldmanNPC : NPC
      public Vector3 StolenPosition{get;private set;}
     private GameObject excMark;
     private GameObject queMark;
+
     private void OnEnable() {
         PlayerMovement.OnObjectStolen+=Oldman_ObjectStolen;
     }
@@ -84,6 +85,8 @@ public class OldmanNPC : NPC
     
         Gizmos.DrawWireSphere(transform.position,idleCheckDistance);
         Gizmos.DrawWireSphere(transform.position,walkingCheckDistance);
+        
+        Gizmos.DrawWireSphere(transform.position,stolenDetectDistance);
     }
     public void SelectRandomPosition(){
         int randomValue=Random.Range(0,positions.childCount);
@@ -94,7 +97,6 @@ public class OldmanNPC : NPC
         if (player!=null)
         {
              PlayerSeen=true;
-             SetActiveExcMark(true);
                 CurrentTargetPosition=player.transform.position;
         }
     }
@@ -103,13 +105,13 @@ public class OldmanNPC : NPC
         if (player!=null)
         {
             PlayerSeen=true;
-            SetActiveExcMark(true);
+            
             CurrentTargetPosition=player.transform.position;
         }
     }
     public void Oldman_ObjectStolen(StealableObject stealableObject){
         
-        CurrentTargetPosition=stealableObject.gameObject.transform.position;
+        CurrentTargetPosition=stealableObject.GetComponent<Collider2D>().bounds.center;
         if (Vector3.Distance(StolenPosition,transform.position)<=stolenDetectDistance)
         {
             Stolen=true;

@@ -24,18 +24,10 @@ public class PlayerSkill : MonoBehaviour
 
     void CastSkill()
     {
-        Collider2D[] colliderHits = Physics2D.OverlapCircleAll(transform.position, skillRadius, enemyLayer);
-        if (colliderHits.Length == 0)
-        {
-            return;
-        }
-
+        
         animator.SetTrigger("castSpell");
 
-        foreach (Collider2D hit in colliderHits)
-        {
-            //Change the event
-        }
+       
     }
 
 }
