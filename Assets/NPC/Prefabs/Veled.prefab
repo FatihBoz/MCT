@@ -378,9 +378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positions: {fileID: 0}
-  idleCheckDistance: 1.9
-  walkingCheckDistance: 0.92
-  stolenDetectDistance: 20
+  idleCheckDistance: 5.48
+  walkingCheckDistance: 3.88
+  stolenDetectDistance: 6.6
   baseSpeed: 0
   increasedSpeed: 0
   PlayerSeen: 0
