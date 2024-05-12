@@ -10,8 +10,9 @@ public class StartingPoint : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && CheckList.canFinish)
+        if (collision.gameObject.CompareTag("Player") && CheckList.instance.canFinish)
         {
+            Debug.Log("canfinish:"+CheckList.instance.canFinish);
             collision.gameObject.SetActive(false);
 
             winPanel.SetActive(true);

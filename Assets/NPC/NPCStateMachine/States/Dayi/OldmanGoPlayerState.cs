@@ -13,9 +13,6 @@ public class OldmanGoPlayerState : OldmanState
     {
         base.Enter();
         agent.isStopped=true;
-        Debug.Log("goPlayer");
-        
-        Debug.Log(oldmanNpc.gameObject.name+"  "+Vector3.Distance(oldmanNpc.transform.position,oldmanNpc.CurrentTargetPosition));
         if (Vector2.Distance(oldmanNpc.transform.position,oldmanNpc.CurrentTargetPosition)<=1.5f)
         {
             OldmanNPC.OnLose?.Invoke();

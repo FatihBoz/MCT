@@ -6,7 +6,9 @@ using DG.Tweening;
 
 public class CheckList : MonoBehaviour
 {
-    public static bool canFinish;
+    public static CheckList instance;
+    public bool canFinish;
+
     #region PUBLIC
     public int minLine;
     public int maxLine;
@@ -39,6 +41,7 @@ public class CheckList : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
         SetOffSet();
         checkListObjects = new CheckListObject[objects.Count];
 
