@@ -1707,17 +1707,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 193380586, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
-      propertyPath: baseSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 193380586, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
       propertyPath: positions
       value: 
       objectReference: {fileID: 948139860}
-    - target: {fileID: 193380586, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
-      propertyPath: increasedSpeed
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2909960203437508738, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1765,10 +1757,6 @@ PrefabInstance:
     - target: {fileID: 2909960203437508740, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
       propertyPath: m_Name
       value: Dayi
-      objectReference: {fileID: 0}
-    - target: {fileID: 2909960203437508798, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22f0138e12674fe41955ee2721380a4c, type: 3}
@@ -3511,10 +3499,6 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2909960203437508798, guid: 60addc24f26c3514686380011aa67f2d, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60addc24f26c3514686380011aa67f2d, type: 3}
 --- !u!1001 &2047045313
@@ -3916,10 +3900,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Babba
       objectReference: {fileID: 0}
-    - target: {fileID: 4347147401835514057, guid: fb4ab603603e7e248a50b72dfb316c58, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7054270023260748964, guid: fb4ab603603e7e248a50b72dfb316c58, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4054,10 +4034,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1597590785582589539, guid: cabd34d84c007f04ba585e1e0a47ade5, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1854465997948489608, guid: cabd34d84c007f04ba585e1e0a47ade5, type: 3}
       propertyPath: baseSpeed
       value: 2
