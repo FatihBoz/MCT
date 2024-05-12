@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 3421583472917089915}
   m_Layer: 6
   m_Name: Babba
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -300,7 +300,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 3.77
-  m_BaseOffset: 1.79
+  m_BaseOffset: 0
   m_WalkableMask: 3
   m_ObstacleAvoidanceType: 4
 --- !u!114 &4347147401835514059
