@@ -341,8 +341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positions: {fileID: 0}
-  idleCheckDistance: 8
-  walkingCheckDistance: 4.5
+  idleCheckDistance: 12
+  walkingCheckDistance: 6
   stolenDetectDistance: 24
   baseSpeed: 0
   increasedSpeed: 0

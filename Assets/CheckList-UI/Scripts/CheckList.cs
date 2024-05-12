@@ -13,6 +13,8 @@ public class CheckList : MonoBehaviour
 
     public Vector3 publicOffSet;
     public Vector3 privateOffSet;
+
+    public GameObject CheckMark;
     #endregion
 
     [SerializeField] private List<TextMeshProUGUI> lines;
@@ -89,8 +91,27 @@ public class CheckList : MonoBehaviour
             if (obj.name.Equals(checkListObjects[i].GetName()))
             {
                 checkListObjects[i].ObjectHasStolen();
+                if (PlayerWins())
+                {
+                    CheckMark.SetActive(true);
+                }
+                
             }
         }
+    }
+
+    bool PlayerWins()
+    {
+        bool isCompleted = true;
+        for (int i = 0; i < lineCount; i++)
+        {
+            if (!checkListObjects[i].ObjectsAreCollected)
+            {
+                isCompleted = false;
+                break;
+            }
+        }
+        return isCompleted;
     }
 
     private void Update()
