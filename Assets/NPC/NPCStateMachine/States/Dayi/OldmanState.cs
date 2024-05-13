@@ -18,7 +18,7 @@ public class OldmanState : State
         if(!isExitingState && oldmanNpc.Stolen){
             sc.ChangeState(oldmanNpc.OldmanObjectStolenState);
         }
-        
+
         if(!isExitingState && oldmanNpc.SkillCasted)
         {
             sc.ChangeState(oldmanNpc.OldmanPatrolState);

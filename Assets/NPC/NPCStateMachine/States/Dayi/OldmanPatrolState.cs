@@ -22,9 +22,14 @@ public class OldmanPatrolState : OldmanState
     {
         base.LogicUpdate();
         if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2)
-        {   
+        {
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }
+    }
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+        oldmanNpc.CheckOnWalk();
     }
 
 }

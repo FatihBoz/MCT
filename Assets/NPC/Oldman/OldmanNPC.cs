@@ -11,7 +11,7 @@ public class OldmanNPC : NPC
     public OldmanGoPlayerState OldmanGoPlayerState{get;private set;}
     public OldmanPatrolState OldmanPatrolState{get;private set;}
     public OldmanObjectStolenState OldmanObjectStolenState{get;private set;}
-    
+
     public float idleCheckDistance;
     public float walkingCheckDistance;
     public float stolenDetectDistance;
@@ -23,7 +23,7 @@ public class OldmanNPC : NPC
     public bool SkillCasted;
     public bool HasImmunity;
     public Vector3 LastPlayerSeenPosition{get;private set;}
-    
+
     private Vector3 defaultLook;
      private Vector3 look;
 
@@ -66,7 +66,7 @@ public class OldmanNPC : NPC
 
         excMark=transform.Find("excMark").gameObject;
         SetActiveExcMark(false);
-        
+
         queMark=transform.Find("queMark").gameObject;
         SetActiveQueMark(false);
 
@@ -83,7 +83,7 @@ public class OldmanNPC : NPC
         look=agent.velocity.normalized;
         if (look==Vector3.zero)
         {
-            look=defaultLook;   
+            look=defaultLook;
         }
 
         if (HasImmunity)
@@ -103,23 +103,29 @@ public class OldmanNPC : NPC
         DetectPlayer();
     }
     public void DetectPlayer(){
-       
+
+         if (!HasImmunity)
+        {
+
         RaycastHit2D hit = Physics2D.Raycast(transform.position, look);
         if (hit.collider != null)
         {
             if (hit.collider.CompareTag("Player"))
             {
                 PlayerSeen=true;
+
                 CurrentTargetPosition=hit.collider.transform.position;
             }
+        }
+
         }
     }
     private void OnDrawGizmos() {
         Gizmos.DrawLine(transform.position,transform.position+look*5);
-    
+
         Gizmos.DrawWireSphere(transform.position,idleCheckDistance);
         Gizmos.DrawWireSphere(transform.position,walkingCheckDistance);
-        
+
         Gizmos.DrawWireSphere(transform.position,stolenDetectDistance);
     }
     public void SelectRandomPosition(){
@@ -127,26 +133,38 @@ public class OldmanNPC : NPC
         CurrentTargetPosition=positions.GetChild(randomValue).position;
     }
     public void CheckOnIdle(){
+         if (!HasImmunity)
+        {
+
         Collider2D player=Physics2D.OverlapCircle(transform.position,idleCheckDistance,LayerMask.GetMask("Player"));
         if (player!=null)
         {
+
              PlayerSeen=true;
                 CurrentTargetPosition=player.transform.position;
         }
+        }
     }
     public void CheckOnWalk(){
+        if (!HasImmunity)
+        {
+
         Collider2D player=Physics2D.OverlapCircle(transform.position,walkingCheckDistance,LayerMask.GetMask("Player"));
         if (player!=null)
         {
+
             PlayerSeen=true;
-            
+
             CurrentTargetPosition=player.transform.position;
+        }
+
+
         }
     }
     public void Oldman_ObjectStolen(StealableObject stealableObject){
-        
+
         CurrentTargetPosition=stealableObject.GetComponent<Collider2D>().bounds.center;
-        if (Vector3.Distance(StolenPosition,transform.position)<=stolenDetectDistance)
+        if (Vector3.Distance(StolenPosition,transform.position)<=stolenDetectDistance && !HasImmunity)
         {
             Stolen=true;
         }else

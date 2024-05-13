@@ -12,6 +12,7 @@ public class OldmanGoPlayerState : OldmanState
     public override void Enter()
     {
         base.Enter();
+        Debug.Log("goPlayer");
         agent.isStopped=true;
         if (Vector2.Distance(oldmanNpc.transform.position,oldmanNpc.CurrentTargetPosition)<=1.5f)
         {
@@ -22,7 +23,7 @@ public class OldmanGoPlayerState : OldmanState
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
         oldmanNpc.SetActiveExcMark(true);
         agent.speed = oldmanNpc.increasedSpeed;
-        
+
     }
     public override void LogicUpdate()
     {
@@ -35,12 +36,13 @@ public class OldmanGoPlayerState : OldmanState
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-    
+        oldmanNpc.CheckOnWalk();
     }
     public override void Exit()
     {
         base.Exit();
         oldmanNpc.SetActiveExcMark(false);
-        
+
     }
+
 }

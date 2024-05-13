@@ -15,14 +15,14 @@ public class OldmanObjectStolenState : OldmanState
         Debug.Log("Object Stolen");
         agent.isStopped=false;
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
-        
+
         oldmanNpc.SetActiveExcMark(true);
     }
      public override void LogicUpdate()
     {
         base.LogicUpdate();
         if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2)
-        {   
+        {
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }
     }
@@ -30,6 +30,11 @@ public class OldmanObjectStolenState : OldmanState
     {
         base.Exit();
         oldmanNpc.SetActiveExcMark(false);
+    }
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+        oldmanNpc.CheckOnWalk();
     }
 
 }
