@@ -12,7 +12,7 @@ public class OldmanObjectStolenState : OldmanState
     {
         oldmanNpc.SetFalseStolen();
         base.Enter();
-        Debug.Log("Object Stolen");
+        Debug.Log(oldmanNpc.gameObject.name + "Object Stolen State");
         agent.isStopped=false;
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -13,7 +14,7 @@ public class OldmanPatrolState : OldmanState
     {
         base.Enter();
         oldmanNpc.SetFalseSkillCasted();
-        Debug.Log("Patrol");
+        Debug.Log(oldmanNpc.gameObject.name + "Patrol");
         oldmanNpc.SelectRandomPosition();
         agent.isStopped=false;
         agent.SetDestination(oldmanNpc.CurrentTargetPosition);
