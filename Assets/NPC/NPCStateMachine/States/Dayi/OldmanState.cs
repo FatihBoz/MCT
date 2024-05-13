@@ -28,6 +28,6 @@ public class OldmanState : State
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        oldmanNpc.CheckOnWalk();
+
     }
 }
