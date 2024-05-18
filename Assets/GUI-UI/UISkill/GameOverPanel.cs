@@ -25,12 +25,15 @@ public class GameOverPanel : MonoBehaviour
     }
    }
    public void Lost(){
-    if (!enable)
-    {
-        startTime=Time.time;
-    enable=true;
-gameOverPanel.SetActive(true);
-    }
+
+        GameObject.FindGameObjectWithTag("Player").SetActive(false);
+
+        if (!enable)
+        {
+            startTime=Time.time;
+            enable=true;
+            gameOverPanel.SetActive(true);
+        }
 
    }
 }
