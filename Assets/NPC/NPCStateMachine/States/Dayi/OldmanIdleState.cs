@@ -12,7 +12,6 @@ public class OldmanIdleState : OldmanState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log(oldmanNpc.gameObject.name + "idle");
         agent.isStopped=true;
         oldmanNpc.SetActiveQueMark(true);
     }

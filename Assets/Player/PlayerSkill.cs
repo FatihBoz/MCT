@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSkill : MonoBehaviour
@@ -27,9 +25,18 @@ public class PlayerSkill : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && movement.movement == Vector2.zero && skillCanBeCasted)
+
+
+        if (Input.GetKeyDown(KeyCode.Space)) // sað aþaðý ve sað yukarý hareket ederken e'ye bastýðýný algýlamýyor
         {
-            CastSkill();
+
+
+            if (skillCanBeCasted)
+            {
+                CastSkill();
+                print("SKILL");
+            }
+
         }
     }
 

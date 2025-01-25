@@ -12,7 +12,6 @@ public class OldmanGoPlayerState : OldmanState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log(oldmanNpc.gameObject.name + "goPlayer");
         agent.isStopped=true;
         if (Vector2.Distance(oldmanNpc.transform.position,oldmanNpc.CurrentTargetPosition)<=1.5f)
         {
