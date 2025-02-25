@@ -8,13 +8,14 @@ public abstract class State
     protected NPC npc;
     protected StateController sc;
     
-    protected NavMeshAgent agent;
+    protected NPCMover npcMover;
     protected float startTime;
     protected bool isExitingState;
-    public State(StateController sc,NavMeshAgent agent){
+    public State(StateController sc, NPCMover npcMover)
+    {
         
         this.sc = sc;
-        this.agent = agent;
+        this.npcMover = npcMover;
     }
     public virtual void Enter(){
         isExitingState=false;

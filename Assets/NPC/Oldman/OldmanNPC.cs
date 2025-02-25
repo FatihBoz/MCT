@@ -29,7 +29,10 @@ public class OldmanNPC : NPC
 
      public bool Stolen{get;private set;}
      public Vector3 StolenPosition{get;private set;}
+    [SerializeField]
     private GameObject excMark;
+    [SerializeField]
+
     private GameObject queMark;
 
     private float patrolTimeAfterSkillCasted = 0f;
@@ -46,7 +49,7 @@ public class OldmanNPC : NPC
         SkillCasted = true;
         HasImmunity = true;
 
-        agent.speed = baseSpeed;
+        npcMover.speed = baseSpeed;
     }
 
     private void OnDisable() {
@@ -58,29 +61,35 @@ public class OldmanNPC : NPC
         base.Start();
         defaultLook=new Vector3(0,-1,0);
         PlayerSeen=false;
-        OldmanIdleState=new OldmanIdleState(sc,agent,this);
-        OldmanPatrolState=new OldmanPatrolState(sc,agent,this);
-        OldmanGoPlayerState=new OldmanGoPlayerState(sc,agent,this);
-        OldmanObjectStolenState=new OldmanObjectStolenState(sc,agent,this);
+        OldmanIdleState=new OldmanIdleState(sc, npcMover, this);
+        OldmanPatrolState=new OldmanPatrolState(sc, npcMover, this);
+        OldmanGoPlayerState=new OldmanGoPlayerState(sc, npcMover, this);
+        OldmanObjectStolenState=new OldmanObjectStolenState(sc, npcMover, this);
 
+        if (excMark==null)
+        {
+        excMark =transform.Find("excMark").gameObject;
 
-        excMark=transform.Find("excMark").gameObject;
+        }
         SetActiveExcMark(false);
 
-        queMark=transform.Find("queMark").gameObject;
+        if (queMark==null)
+        {
+           
+        queMark =transform.Find("queMark").gameObject;
+        }
         SetActiveQueMark(false);
 
         sc.InitalizeStateController(OldmanIdleState);
 
-        baseSpeed = agent.speed;
-        increasedSpeed = 5f;
+        npcMover.speed = baseSpeed;
     }
-    void Update()
+    public new void Update()
     {
         base.Update();
         sc.LogicUpdate();
 
-        look=agent.velocity.normalized;
+        look=npcMover.velocity.normalized;
         if (look==Vector3.zero)
         {
             look=defaultLook;
@@ -113,7 +122,6 @@ public class OldmanNPC : NPC
             if (hit.collider.CompareTag("Player"))
             {
                 PlayerSeen=true;
-
                 CurrentTargetPosition=hit.collider.transform.position;
             }
         }
@@ -135,14 +143,13 @@ public class OldmanNPC : NPC
     public void CheckOnIdle(){
          if (!HasImmunity)
         {
+            Collider2D player=Physics2D.OverlapCircle(transform.position,idleCheckDistance,LayerMask.GetMask("Player"));
+            if (player!=null)
+            {
 
-        Collider2D player=Physics2D.OverlapCircle(transform.position,idleCheckDistance,LayerMask.GetMask("Player"));
-        if (player!=null)
-        {
-
-             PlayerSeen=true;
+                 PlayerSeen=true;
                 CurrentTargetPosition=player.transform.position;
-        }
+            }
         }
     }
     public void CheckOnWalk(){
@@ -150,15 +157,16 @@ public class OldmanNPC : NPC
         {
 
         Collider2D player=Physics2D.OverlapCircle(transform.position,walkingCheckDistance,LayerMask.GetMask("Player"));
+
         if (player!=null)
         {
-
             PlayerSeen=true;
-
             CurrentTargetPosition=player.transform.position;
         }
-
-
+        else if(PlayerSeen)
+        {
+          PlayerSeen = false;
+        }
         }
     }
     public void Oldman_ObjectStolen(StealableObject stealableObject){

@@ -5,32 +5,49 @@ using UnityEngine.AI;
 
 public class OldmanGoPlayerState : OldmanState
 {
-    public OldmanGoPlayerState(StateController sc, NavMeshAgent agent, OldmanNPC oldmanNpc) : base(sc, agent, oldmanNpc)
+
+    public float pathCreateDuration = 0.5f;
+    private float pathTime;
+    public OldmanGoPlayerState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover, oldmanNpc)
     {
     }
 
     public override void Enter()
     {
         base.Enter();
-        agent.isStopped=true;
-        if (Vector2.Distance(oldmanNpc.transform.position,oldmanNpc.CurrentTargetPosition)<=1.5f)
-        {
-            OldmanNPC.OnLose?.Invoke();
-        }
-        oldmanNpc.PlayerSeen=false;
-        agent.isStopped=false;
-        agent.SetDestination(oldmanNpc.CurrentTargetPosition);
+        Debug.Log(oldmanNpc.gameObject.name + "goPlayer");
+        npcMover.isStopped=true;
+        
+        //oldmanNpc.PlayerSeen=false;
+        npcMover.isStopped=false;
+        npcMover.CreatePath(oldmanNpc.CurrentTargetPosition);
         oldmanNpc.SetActiveExcMark(true);
-        agent.speed = oldmanNpc.increasedSpeed;
+        npcMover.speed = oldmanNpc.increasedSpeed;
+        pathTime= Time.time;
 
     }
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2 && !oldmanNpc.PlayerSeen)
+
+        if (!isExitingState && npcMover.reachedEndOfPath && !oldmanNpc.PlayerSeen)
         {
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }
+
+        if (!isExitingState && Vector2.Distance(oldmanNpc.transform.position, oldmanNpc.CurrentTargetPosition) <= 1.5f && oldmanNpc.PlayerSeen)
+        {
+            OldmanNPC.OnLose?.Invoke();
+        }
+
+        if (Time.time >= pathTime + pathCreateDuration)
+        {
+            npcMover.CreatePath(oldmanNpc.CurrentTargetPosition);
+            pathTime = Time.time;
+        }
+
+
+        
     }
     public override void PhysicsUpdate()
     {
@@ -41,7 +58,7 @@ public class OldmanGoPlayerState : OldmanState
     {
         base.Exit();
         oldmanNpc.SetActiveExcMark(false);
-
+        npcMover.speed = oldmanNpc.baseSpeed;
     }
 
 }

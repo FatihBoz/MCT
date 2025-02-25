@@ -5,14 +5,15 @@ using UnityEngine.AI;
 
 public class OldmanIdleState : OldmanState
 {
-    public OldmanIdleState(StateController sc, NavMeshAgent agent, OldmanNPC oldmanNpc) : base(sc, agent, oldmanNpc)
+    public OldmanIdleState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover, oldmanNpc)
     {
     }
 
     public override void Enter()
     {
         base.Enter();
-        agent.isStopped=true;
+        Debug.Log(oldmanNpc.gameObject.name + "idle");
+        npcMover.isStopped=true;
         oldmanNpc.SetActiveQueMark(true);
     }
     public override void LogicUpdate()
@@ -32,6 +33,6 @@ public class OldmanIdleState : OldmanState
     {
         base.Exit();
         oldmanNpc.SetActiveQueMark(false);
-        agent.isStopped=false;
+        npcMover.isStopped=false;
     }
 }

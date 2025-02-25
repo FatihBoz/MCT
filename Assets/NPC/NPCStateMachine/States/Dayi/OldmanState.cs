@@ -6,15 +6,17 @@ using UnityEngine.AI;
 public class OldmanState : State
 {
     protected OldmanNPC oldmanNpc;
-    public OldmanState(StateController sc, NavMeshAgent agent,OldmanNPC oldmanNpc) : base(sc, agent)
+    public OldmanState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover)
     {
         this.oldmanNpc=oldmanNpc;
     }
     public override void LogicUpdate(){
-        if (oldmanNpc.PlayerSeen && !oldmanNpc.HasImmunity)
+
+        if (oldmanNpc.PlayerSeen && !oldmanNpc.HasImmunity && sc.CurrentState != oldmanNpc.OldmanGoPlayerState)
         {
             sc.ChangeState(oldmanNpc.OldmanGoPlayerState);
         }
+
         if(!isExitingState && oldmanNpc.Stolen){
             sc.ChangeState(oldmanNpc.OldmanObjectStolenState);
         }

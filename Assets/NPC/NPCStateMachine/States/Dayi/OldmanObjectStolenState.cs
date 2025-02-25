@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class OldmanObjectStolenState : OldmanState
 {
-    public OldmanObjectStolenState(StateController sc, NavMeshAgent agent, OldmanNPC oldmanNpc) : base(sc, agent, oldmanNpc)
+    public OldmanObjectStolenState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover, oldmanNpc)
     {
     }
     public override void Enter()
@@ -13,15 +13,17 @@ public class OldmanObjectStolenState : OldmanState
         oldmanNpc.SetFalseStolen();
         base.Enter();
         Debug.Log(oldmanNpc.gameObject.name + "Object Stolen State");
-        agent.isStopped=false;
-        agent.SetDestination(oldmanNpc.CurrentTargetPosition);
+        npcMover.isStopped = false;
+        npcMover.reachedEndOfPath=false;
+        npcMover.path = null;
+        npcMover.CreatePath(oldmanNpc.CurrentTargetPosition);
 
         oldmanNpc.SetActiveExcMark(true);
     }
      public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!isExitingState && !agent.pathPending && agent.remainingDistance < 2)
+        if (!isExitingState && !npcMover.pathPending && npcMover.reachedEndOfPath)
         {
             sc.ChangeState(oldmanNpc.OldmanIdleState);
         }

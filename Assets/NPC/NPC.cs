@@ -5,17 +5,20 @@ using UnityEngine.AI;
 
 public class NPC : MonoBehaviour
 {
-    protected Animator animator;
-    protected NavMeshAgent agent;
+    public Animator animator;
+    protected NPCMover npcMover;
     protected StateController sc;
     public void Start()
     {
         sc=new StateController();
-            agent = GetComponent<NavMeshAgent>();
+        npcMover = GetComponent<NPCMover>();
+        if (animator==null)
+        {
         animator = GetComponent<Animator>();
+        }
 
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
+        // agent.updateRotation = false;
+        // agent.updateUpAxis = false;
     }
 
     // Update is called once per frame
@@ -26,9 +29,9 @@ public class NPC : MonoBehaviour
     }
         void SetAnimations()
     {
-        animator.SetFloat("velocity_x", agent.velocity.x);
-        animator.SetFloat("velocity_y", agent.velocity.y);
-        animator.SetBool("isMoving", agent.velocity!=Vector3.zero);
+        animator.SetFloat("velocity_x", npcMover.velocity.x);
+        animator.SetFloat("velocity_y", npcMover.velocity.y);
+        animator.SetBool("isMoving", npcMover.velocity!=Vector2.zero);
     }
     public void Effected(){
         
