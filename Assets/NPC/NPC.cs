@@ -31,7 +31,7 @@ public class NPC : MonoBehaviour
     {
         animator.SetFloat("velocity_x", npcMover.velocity.x);
         animator.SetFloat("velocity_y", npcMover.velocity.y);
-        animator.SetBool("isMoving", npcMover.velocity!=Vector2.zero);
+        animator.SetBool("isMoving", npcMover.IsMoving);
     }
     public void Effected(){
         

@@ -11,7 +11,7 @@ public class NPCMover : MonoBehaviour
 
     public Path path;
     public float speed = 2;
-    public float nextWaypointDistance = .3f;
+    public float nextWaypointDistance = .5f;
 
     private int currentWaypoint = 0;
 
@@ -25,6 +25,7 @@ public class NPCMover : MonoBehaviour
 
     public Vector2 velocity;
 
+    public bool IsMoving { get;private set; }
 
 //   private Rigidbody2D rb;
 
@@ -59,19 +60,19 @@ public class NPCMover : MonoBehaviour
         if (isStopped)
         {
             velocity = Vector2.zero;
+            IsMoving = false;
             return;
         }
 
         if (path==null)
         {
-            velocity = Vector2.zero;
             return;
         }
 
         if (currentWaypoint >= path.vectorPath.Count)
         {
             reachedEndOfPath = true;
-          //  rb.velocity=Vector2.zero;
+            IsMoving = false;
             return;
         }
         else
@@ -80,13 +81,12 @@ public class NPCMover : MonoBehaviour
         }    
 
 
-            Vector2 dir = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
+        Vector2 dir = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
         velocity = dir * speed;
-
         float distance = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
-       
         transform.position += (Vector3)velocity * Time.deltaTime;
-        //   rb.velocity = velocity;
+        IsMoving = true;
+
 
         if (distance < nextWaypointDistance)
         {

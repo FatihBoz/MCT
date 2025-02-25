@@ -26,6 +26,10 @@ public class PlayerSkill : MonoBehaviour
     private void Update()
     {
 
+        if (PauseScreen.Instance.IsPaused)
+        {
+            return;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space)) // sað aþaðý ve sað yukarý hareket ederken e'ye bastýðýný algýlamýyor
         {

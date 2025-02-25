@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class OldmanGoPlayerState : OldmanState
 {
 
-    public float pathCreateDuration = 0.5f;
+    private float pathCreateDuration = 0.2f;
     private float pathTime;
     public OldmanGoPlayerState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover, oldmanNpc)
     {

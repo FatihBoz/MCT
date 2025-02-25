@@ -38,6 +38,10 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        if (PauseScreen.Instance.IsPaused)
+        {
+            return;
+        }
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Normalize();
