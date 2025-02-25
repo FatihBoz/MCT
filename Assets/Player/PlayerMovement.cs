@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
         stealText.gameObject.SetActive(false);
         updateScore();
 
+
     }
     void Update()
     {

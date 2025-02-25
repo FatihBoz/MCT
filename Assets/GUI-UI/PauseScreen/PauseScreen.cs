@@ -23,6 +23,10 @@ public class PauseScreen : MonoBehaviour
     }
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+
         pauseScreen.SetActive(true);
         resumeButton = pauseScreen.transform.Find("RESUME").GetComponent<Button>();
         retryButton = pauseScreen.transform.Find("RETRY").GetComponent<Button>();
@@ -64,6 +68,8 @@ public class PauseScreen : MonoBehaviour
         Time.timeScale = 0;
         IsPaused = true;
         pauseScreen.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     private void Resume()
@@ -71,6 +77,8 @@ public class PauseScreen : MonoBehaviour
         Time.timeScale = 1;
         IsPaused = false;
         pauseScreen.SetActive(false);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Retry()
