@@ -3835,7 +3835,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
+  logPathResults: 4
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0
@@ -3854,7 +3854,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 1
+  maxFrameTime: 10
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
   euclideanEmbedding:
@@ -4559,6 +4559,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 426328736}
     m_Modifications:
+    - target: {fileID: 3031638170904141415, guid: 58ac59e3955b16f4b874d1db3b5b012c, type: 3}
+      propertyPath: m_text
+      value: Space
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031638170904141415, guid: 58ac59e3955b16f4b874d1db3b5b012c, type: 3}
+      propertyPath: m_fontSize
+      value: 64.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031638170904141415, guid: 58ac59e3955b16f4b874d1db3b5b012c, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3031638171080668600, guid: 58ac59e3955b16f4b874d1db3b5b012c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

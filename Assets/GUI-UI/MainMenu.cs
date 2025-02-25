@@ -19,6 +19,9 @@ public class MainMenu : MonoBehaviour
     public GameObject tutorial;
     void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if (!PlayerPrefs.HasKey("maxScore"))
         {
             PlayerPrefs.SetInt("maxScore",0);
@@ -68,6 +71,10 @@ public class MainMenu : MonoBehaviour
             tutorial.SetActive(true);
         }
 
+    }
+    public void QuitPressed()
+    {
+        Application.Quit();
     }
     
 }

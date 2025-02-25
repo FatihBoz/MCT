@@ -24,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
 
     public SoundManager sound;
 
-    public static Action OnLose;
 
     public delegate void ObjectStealingHandler(StealableObject obj);
     public static event ObjectStealingHandler OnObjectStolen;

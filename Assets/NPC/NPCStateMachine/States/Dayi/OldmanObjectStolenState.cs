@@ -12,7 +12,7 @@ public class OldmanObjectStolenState : OldmanState
     {
         oldmanNpc.SetFalseStolen();
         base.Enter();
-        Debug.Log(oldmanNpc.gameObject.name + "Object Stolen State");
+    //    Debug.Log(oldmanNpc.gameObject.name + "Object Stolen State");
         npcMover.isStopped = false;
         npcMover.reachedEndOfPath=false;
         npcMover.path = null;

@@ -17,6 +17,8 @@ public class PauseScreen : MonoBehaviour
 
     [SerializeField]
     private GameObject pauseScreen;
+
+
     private void Awake()
     {
         Instance = this;
@@ -25,8 +27,6 @@ public class PauseScreen : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-
-
         pauseScreen.SetActive(true);
         resumeButton = pauseScreen.transform.Find("RESUME").GetComponent<Button>();
         retryButton = pauseScreen.transform.Find("RETRY").GetComponent<Button>();
@@ -39,15 +39,16 @@ public class PauseScreen : MonoBehaviour
     }
     private void OnEnable()
     {
-        resumeButton.onClick.AddListener(Resume);
-        retryButton.onClick.AddListener(Retry);
-        exitButton.onClick.AddListener(Exit);
+
+
     }
     private void OnDisable()
     {
         resumeButton.onClick.RemoveListener(Resume);
         retryButton.onClick.RemoveListener(Retry);
         exitButton.onClick.RemoveListener(Exit);
+
+
     }
     void Update()
     {

@@ -31,6 +31,7 @@ public class StartingPoint : MonoBehaviour
             winPanel.SetActive(true);
 
             scoreText.text = "Score : " + collision.gameObject.GetComponent<PlayerMovement>().playerScore;
+            
         }
     }
     private void Update()

@@ -12,7 +12,7 @@ public class OldmanIdleState : OldmanState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log(oldmanNpc.gameObject.name + "idle");
+     //   Debug.Log(oldmanNpc.gameObject.name + "idle");
         npcMover.isStopped=true;
         oldmanNpc.SetActiveQueMark(true);
     }

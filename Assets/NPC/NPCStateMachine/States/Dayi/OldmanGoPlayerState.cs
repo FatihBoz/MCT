@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class OldmanGoPlayerState : OldmanState
 {
 
-    private float pathCreateDuration = 0.2f;
+    private float pathCreateDuration = 0.4f;
     private float pathTime;
     public OldmanGoPlayerState(StateController sc, NPCMover npcMover, OldmanNPC oldmanNpc) : base(sc, npcMover, oldmanNpc)
     {
@@ -45,9 +45,12 @@ public class OldmanGoPlayerState : OldmanState
             npcMover.CreatePath(oldmanNpc.CurrentTargetPosition);
             pathTime = Time.time;
         }
+        if (!isExitingState)
+        {
+            npcMover.SetIsMoving(true);
+        }
 
 
-        
     }
     public override void PhysicsUpdate()
     {
@@ -57,6 +60,7 @@ public class OldmanGoPlayerState : OldmanState
     public override void Exit()
     {
         base.Exit();
+        npcMover.SetIsMoving(false);
         oldmanNpc.SetActiveExcMark(false);
         npcMover.speed = oldmanNpc.baseSpeed;
     }

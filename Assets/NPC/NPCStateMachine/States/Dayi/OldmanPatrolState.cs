@@ -14,7 +14,7 @@ public class OldmanPatrolState : OldmanState
     {
         base.Enter();
         oldmanNpc.SetFalseSkillCasted();
-        Debug.Log(oldmanNpc.gameObject.name + "Patrol");
+      //  Debug.Log(oldmanNpc.gameObject.name + "Patrol");
         oldmanNpc.SelectRandomPosition();
         npcMover.isStopped = false;
         npcMover.reachedEndOfPath=false;
