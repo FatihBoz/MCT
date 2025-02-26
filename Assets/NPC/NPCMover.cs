@@ -11,7 +11,7 @@ public class NPCMover : MonoBehaviour
 
     public Path path;
     public float speed = 2;
-    public float nextWaypointDistance = .5f;
+    public float nextWaypointDistance = .3f;
 
     private int currentWaypoint = 0;
 
@@ -28,14 +28,12 @@ public class NPCMover : MonoBehaviour
     public bool IsMoving { get;private set; }
 
     //   private Rigidbody2D rb;
-    private Path oldPath;
 
     void Start()
     {
       //  rb = GetComponent<Rigidbody2D>();
         seeker = GetComponent<Seeker>();
         velocity = Vector2.zero;
-        oldPath = null;
 
     }
 
@@ -52,7 +50,6 @@ public class NPCMover : MonoBehaviour
         {
             currentWaypoint = 0;
             pathPending = false;
-            oldPath = path;
             path = p;
         }
     }
@@ -67,33 +64,53 @@ public class NPCMover : MonoBehaviour
 
         if (path==null)
         {
-            return;
-        }
-
-        if (currentWaypoint >= path.vectorPath.Count)
-        {
-            velocity = Vector2.zero;
             IsMoving = false;
-            reachedEndOfPath = true;
             return;
         }
-        else
+
+        reachedEndOfPath = false;
+
+        float distanceToWaypoint;
+
+        while (true)
         {
-            reachedEndOfPath = false;
+            // If you want maximum performance you can check the squared distance instead to get rid of a
+            // square root calculation. But that is outside the scope of this tutorial.
+            distanceToWaypoint = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
+            if (distanceToWaypoint < nextWaypointDistance)
+            {
+                // Check if there is another waypoint or if we have reached the end of the path
+                if (currentWaypoint + 1 < path.vectorPath.Count)
+                {
+                    currentWaypoint++;
+                }
+                else
+                {
+                    // Set a status variable to indicate that the agent has reached the end of the path.
+                    // You can use this to trigger some special code if your game requires that.
+                    IsMoving = false;
+                    reachedEndOfPath = true;
+                    break;
+                }
+            }
+            else
+            {
+                break;
+            }
         }
 
+        // Direction to the next waypoint
+        // Normalize it so that it has a length of 1 world unit
+        Vector3 dir = (path.vectorPath[currentWaypoint] - transform.position).normalized;
+        // Multiply the direction by our desired speed to get a velocity
+        velocity = dir * speed;
+
+        // Move the agent using the CharacterController component
+        // Note that SimpleMove takes a velocity in meters/second, so we should not multiply by Time.deltaTime
 
         IsMoving = true;
-        Vector2 dir = ((Vector2)path.vectorPath[currentWaypoint] - (Vector2)transform.position).normalized;
-        velocity = dir * speed;
-        float distance = Vector2.Distance(transform.position, path.vectorPath[currentWaypoint]);
+        // If you are writing a 2D game you should remove the CharacterController code above and instead move the transform directly by uncommenting the next line
         transform.position += (Vector3)velocity * Time.deltaTime;
-
-
-        if (distance < nextWaypointDistance)
-        {
-            currentWaypoint++;
-        }
     }
     public void SetIsMoving(bool isMoving)
     {

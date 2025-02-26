@@ -45,10 +45,6 @@ public class OldmanGoPlayerState : OldmanState
             npcMover.CreatePath(oldmanNpc.CurrentTargetPosition);
             pathTime = Time.time;
         }
-        if (!isExitingState)
-        {
-            npcMover.SetIsMoving(true);
-        }
 
 
     }
