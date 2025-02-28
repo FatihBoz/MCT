@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
+using HypeAPI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         stealText.gameObject.SetActive(false);
         updateScore();
-
+        GameHooks.TriggerGameStart();
 
     }
     void Update()
@@ -81,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 OnObjectStolen?.Invoke(obj);
+                GameHooks.TriggerStealSomething(32);
                 playerScore += collision.gameObject.GetComponent<StealableObject>().scorePoint;
                 sound.PickUp();
                 Destroy(collision.gameObject);
