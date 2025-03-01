@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 OnObjectStolen?.Invoke(obj);
-                GameHooks.TriggerStealSomething(32);
+                GameHooks.TriggerStealSomething();
                 playerScore += collision.gameObject.GetComponent<StealableObject>().scorePoint;
                 sound.PickUp();
                 Destroy(collision.gameObject);
