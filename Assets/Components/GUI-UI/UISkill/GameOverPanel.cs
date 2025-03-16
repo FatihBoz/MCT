@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using CrazyGames;
 public class GameOverPanel : MonoBehaviour
 {
     public GameObject gameOverPanel;
+    public GameObject PausePanel;
+
+
     private float startTime;
     private bool enable;
     private void OnEnable() {
@@ -36,4 +39,19 @@ public class GameOverPanel : MonoBehaviour
         }
 
    }
+
+    public void Pause()
+    {
+        CrazySDK.Game.GameplayStop();
+        PausePanel.SetActive(true);
+
+    }
+
+    public void Continue()
+    {
+        CrazySDK.Game.GameplayStart();
+        PausePanel.SetActive(false);
+    }
+
+
 }

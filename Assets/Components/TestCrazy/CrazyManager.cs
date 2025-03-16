@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CrazyGames;
 
 public class CrazyManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class CrazyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
+
 }
