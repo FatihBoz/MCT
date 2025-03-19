@@ -7,6 +7,7 @@ public class GameOverPanel : MonoBehaviour
 {
     public GameObject gameOverPanel;
     public GameObject PausePanel;
+    private bool isPaused = false;
 
 
     private float startTime;
@@ -16,17 +17,26 @@ public class GameOverPanel : MonoBehaviour
     }
     private void Start() {
         enable=false;
+
+        CrazySDK.Init(() => { /** initialization finished callback */ });
+
     }
     private void OnDisable() {
         
         OldmanNPC.OnLose-=Lost;
     }
    private void Update() {
-    if (Time.time>=startTime+5f && enable)
-    {
-        SceneManager.LoadScene(0);
+
+        if (Time.time>=startTime+5f && enable)
+        {
+            SceneManager.LoadScene(0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
     }
-   }
    public void Lost(){
 
         GameObject.FindGameObjectWithTag("Player").SetActive(false);
@@ -36,14 +46,21 @@ public class GameOverPanel : MonoBehaviour
             startTime=Time.time;
             enable=true;
             gameOverPanel.SetActive(true);
+
+            CrazySDK.Game.GameplayStop();
+
         }
 
-   }
+    }
 
     public void Pause()
     {
         CrazySDK.Game.GameplayStop();
         PausePanel.SetActive(true);
+
+        TogglePause();
+
+        CrazySDK.Banner.RefreshBanners();
 
     }
 
@@ -53,5 +70,10 @@ public class GameOverPanel : MonoBehaviour
         PausePanel.SetActive(false);
     }
 
-
+    void TogglePause()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0 : 1;
+        Debug.Log(isPaused ? "Oyun Durduruldu!" : "Oyun Devam Ediyor!");
+    }
 }

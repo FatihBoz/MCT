@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using CrazyGames;
 
 public class MainMenu : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class MainMenu : MonoBehaviour
     public GameObject tutorial;
     void Start()
     {
+        CrazySDK.Init(() => { /** initialization finished callback */ });
+
+
         if (!PlayerPrefs.HasKey("maxScore"))
         {
             PlayerPrefs.SetInt("maxScore",0);
@@ -51,11 +55,15 @@ public class MainMenu : MonoBehaviour
         goingToScene=true;
         buttons.gameObject.SetActive(false);
         selectedScene=1;
+        CrazySDK.Game.GameplayStart();
     }
     public void BetterLevelButtonPressed(){
+
         goingToScene=true;
         buttons.gameObject.SetActive(false);
-            selectedScene=2;
+        selectedScene=2;
+        CrazySDK.Game.GameplayStart();
+
     }
     public void TutorialPressed()
     {

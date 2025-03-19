@@ -42,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Normalize();
         AnimationsSet();
+
+
     }
     private void updateScore()
     {
