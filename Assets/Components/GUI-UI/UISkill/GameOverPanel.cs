@@ -34,7 +34,7 @@ public class GameOverPanel : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Pause();
+            TogglePause();
         }
     }
    public void Lost(){
@@ -55,25 +55,40 @@ public class GameOverPanel : MonoBehaviour
 
     public void Pause()
     {
+        Time.timeScale = 0;  // Oyunu durdur
         CrazySDK.Game.GameplayStop();
         PausePanel.SetActive(true);
-
-        TogglePause();
-
         CrazySDK.Banner.RefreshBanners();
-
+        isPaused = true;
     }
 
     public void Continue()
     {
+        Time.timeScale = 1;  // Oyunu devam ettir
         CrazySDK.Game.GameplayStart();
         PausePanel.SetActive(false);
+        isPaused = false;
     }
 
     void TogglePause()
     {
-        isPaused = !isPaused;
-        Time.timeScale = isPaused ? 0 : 1;
+        if (isPaused)
+        {
+            Continue();
+        }
+        else
+        {
+            Pause();
+        }
+
         Debug.Log(isPaused ? "Oyun Durduruldu!" : "Oyun Devam Ediyor!");
     }
+
+    public void MainMenu()
+    {
+        Continue();
+        SceneManager.LoadScene(0);
+    }
+
+
 }

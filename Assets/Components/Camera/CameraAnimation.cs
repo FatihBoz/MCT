@@ -13,7 +13,12 @@ public class CameraAnimation : MonoBehaviour
 
     private void Awake()
     {
-        
+        if (startingPoint == null)
+        {
+            Debug.LogError("CameraAnimation: StartingPoint atanmadý! Lütfen sahnede bir CameraPoint ata.");
+            return;
+        }
+
         target = startingPoint;
         transform.position = target.transform.position;
     }

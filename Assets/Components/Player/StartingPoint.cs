@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using CrazyGames;
 
 public class StartingPoint : MonoBehaviour
 {
@@ -37,7 +38,9 @@ public class StartingPoint : MonoBehaviour
     {
         if (Time.time >= startTime + 5f && enable)
         {
+            CrazySDK.Game.HappyTime();
             SceneManager.LoadScene(0);
         }
     }
+
 }

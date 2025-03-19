@@ -29167,6 +29167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tutorial
       objectReference: {fileID: 0}
+    - target: {fileID: 6652372779561417113, guid: ed6599749c3c9014a8eeb13f3193e52e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6652372779561417118, guid: ed6599749c3c9014a8eeb13f3193e52e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
